@@ -67,14 +67,16 @@ renderMods();
 const rankingTabs=document.getElementById("rankingTabs");
 const rankingRows=document.getElementById("rankingRows");
 const rankingBasis=document.getElementById("rankingBasis");
-const rankingOrder=["weapons","armor","tools","ores","accessories","magic","bosses","mobs","world"];
-const rankingLabels={weapons:"Weapons",armor:"Armor",tools:"Tools",ores:"Ores",accessories:"Accessories",magic:"Magic",bosses:"Bosses",mobs:"Mobs",world:"World"};
+const rankingOrder=["weapons","simplySwords","armor","tools","ores","mythicMetals","betterEnd","artifacts","accessories","magic","bosses","adventureZ","mobs","world"].filter(key=>RANKING_DATA[key]);
+const rankingLabels={weapons:"Vanilla Weapons",simplySwords:"Simply Swords",armor:"Armor",tools:"Tools",ores:"Vanilla Ores",mythicMetals:"Mythic Metals",betterEnd:"BetterEnd",artifacts:"Artifacts",accessories:"Accessories",magic:"Magic & Spells",bosses:"Bosses",adventureZ:"AdventureZ",mobs:"Mobs",world:"World"};
 let activeRanking="weapons";
 function renderRanking(){
  rankingTabs.innerHTML="";
- rankingOrder.forEach(key=>{const b=document.createElement("button");b.className="rank-tab"+(key===activeRanking?" active":"");b.textContent=rankingLabels[key];b.addEventListener("click",()=>{activeRanking=key;renderRanking()});rankingTabs.appendChild(b)});
- const group=RANKING_DATA[activeRanking];rankingBasis.textContent=group.basis;rankingRows.innerHTML="";
- if(!group.entries.length){const tr=document.createElement("tr");tr.innerHTML=`<td colspan="4" class="rank-empty"><span>✧</span><b>${escapeHtml(group.label)} catalogue pending verification</b><small>This category is reserved in the guide, but no unsupported ranking has been published.</small></td>`;rankingRows.appendChild(tr);return}
+ rankingOrder.forEach(key=>{const b=document.createElement("button");b.className="rank-tab"+(key===activeRanking?" active":"");b.textContent=rankingLabels[key]||key;b.addEventListener("click",()=>{activeRanking=key;renderRanking()});rankingTabs.appendChild(b)});
+ const group=RANKING_DATA[activeRanking];
+ if(!group){rankingBasis.textContent="No ranking data is available for this category.";rankingRows.innerHTML="";return}
+ rankingBasis.textContent=group.basis||"Comparison basis not supplied.";rankingRows.innerHTML="";
+ if(!group.entries || !group.entries.length){const tr=document.createElement("tr");tr.innerHTML=`<td colspan="4" class="rank-empty"><span>✧</span><b>${escapeHtml(group.label||activeRanking)} catalogue pending verification</b><small>This category is reserved in the guide, but no unsupported ranking has been published.</small></td>`;rankingRows.appendChild(tr);return}
  group.entries.forEach(([name,rank,stat,note])=>{const tr=document.createElement("tr");tr.innerHTML=`<td><span class="rank-number">${escapeHtml(rank)}</span></td><td><b>${escapeHtml(name)}</b></td><td>${escapeHtml(stat)}</td><td>${escapeHtml(note)}</td>`;rankingRows.appendChild(tr)});
 }
 renderRanking();
