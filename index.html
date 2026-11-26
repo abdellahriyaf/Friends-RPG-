@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c1015">
+  <meta name="description" content="The field guide to the Friends RPG Minecraft server: mods, bosses, gear, dimensions, progression and mechanics.">
+  <title>Friends RPG | Field Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-mark">✦</span><span>FRIENDS <b>RPG</b><small>SERVER FIELD GUIDE</small></span></a>
+    <nav id="nav">
+      <a href="#codex">MOD CODEX</a><a href="#bosses">BOSSES</a><a href="#progression">PROGRESSION</a><a href="#world">THE WORLD</a>
+    </nav>
+    <a class="top-cta" href="#start">PLAYER START <span>↗</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-grid"></div><div class="rune rune-one">ᚠ</div><div class="rune rune-two">ᛉ</div>
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> A LIVING WORLD • MINECRAFT 1.20.1 • FABRIC</div>
+        <h1>YOUR STORY.<br><em>YOUR LEGEND.</em></h1>
+        <p class="hero-lead">A field guide to everything waiting beyond spawn. Learn the mods, build your class, hunt the bosses, master the gear and explore every frontier.</p>
+        <div class="hero-actions"><a class="button primary" href="#progression">BEGIN YOUR JOURNEY <span>→</span></a><a class="button ghost" href="#codex">EXPLORE THE CODEX</a></div>
+        <div class="hero-stats"><div><strong id="modCount">—</strong><span>MODS DOCUMENTED</span></div><i></i><div><strong>04</strong><span>BOSS ENCOUNTERS</span></div><i></i><div><strong>1.20.1</strong><span>SERVER VERSION</span></div></div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-outer"></div><div class="orbit orbit-inner"></div><div class="sigil">✧</div>
+        <div class="sword">⚔</div><div class="art-caption"><span>THE ADVENTURER'S CODEX</span><b>EST. IN THE OVERWORLD</b></div>
+      </div>
+      <div class="scroll-cue">SCROLL TO DISCOVER <span>↓</span></div>
+    </section>
+
+    <section class="ticker"><div>EXPLORE <b>✦</b> FIGHT <b>✦</b> CRAFT <b>✦</b> LEVEL UP <b>✦</b> BUILD TOGETHER <b>✦</b> EXPLORE <b>✦</b> FIGHT <b>✦</b> CRAFT <b>✦</b> LEVEL UP <b>✦</b> BUILD TOGETHER <b>✦</b></div></section>
+
+    <section class="section intro" id="start">
+      <div class="section-kicker">01 / NEW ADVENTURER</div><div class="section-heading"><h2>THE WORLD DOESN'T<br><em>WAIT FOR YOU.</em></h2><p>Start smart. A little preparation saves a lot of very embarrassing deaths.</p></div>
+      <div class="start-grid">
+        <article class="start-card"><span class="step">01</span><div class="card-icon">⌂</div><h3>MAKE A HOME</h3><p>Secure food, a bed, storage and a safe route back to base. Mark your coordinates before wandering off.</p><span class="tag">SURVIVAL BASICS</span></article>
+        <article class="start-card"><span class="step">02</span><div class="card-icon">⚒</div><h3>CHOOSE A STYLE</h3><p>Try a class path: Warrior, Rogue, Archer, Wizard, Paladin or Priest. Build around the role you enjoy.</p><span class="tag">CLASS IDENTITY</span></article>
+        <article class="start-card"><span class="step">03</span><div class="card-icon">♜</div><h3>GEAR UP</h3><p>Use REI to inspect unfamiliar recipes. Upgrade armor, weapons and accessories together, not just one slot.</p><span class="tag">EQUIPMENT</span></article>
+        <article class="start-card"><span class="step">04</span><div class="card-icon">✧</div><h3>FIND YOUR PARTY</h3><p>Team up for dangerous encounters, claim your build area and use voice chat to coordinate expeditions.</p><span class="tag">MULTIPLAYER</span></article>
+      </div>
+    </section>
+
+    <section class="section codex-section" id="codex">
+      <div class="section-kicker">02 / THE MOD CODEX</div><div class="section-heading"><h2>KNOW YOUR <em>ARSENAL.</em></h2><p>Every documented mod, what it contributes and where to learn more.</p></div>
+      <div class="codex-toolbar"><div class="search-wrap"><span>⌕</span><input id="searchInput" type="search" placeholder="Search mods, features, classes..." aria-label="Search mods"></div><div class="filters" id="filters"></div></div>
+      <div class="mod-grid" id="modGrid"></div>
+      <div class="empty-state" id="emptyState" hidden>No entries match that search. Even the ancient archives have limits.</div>
+      <p class="data-note">Mod list compiled from the server details available when this guide was built. Entries marked “in server context” need a fresh mod-folder audit before being treated as a complete manifest. Better Nether is intentionally listed as removed, not installed.</p>
+    </section>
+
+    <section class="section boss-section" id="bosses">
+      <div class="section-kicker">03 / THE HUNT</div><div class="section-heading"><h2>THEY ARE NOT <em>FRIENDLY.</em></h2><p>Boss encounters are milestones. Bring supplies, learn patterns and don't split the party.</p></div>
+      <div class="boss-grid" id="bossGrid"></div>
+      <div class="warning-line"><span>⚠</span><p><b>Before a boss run:</b> bring food, healing, spare gear, ranged options and a way to recover. Confirm the arena and drop rules in-game; loot and mechanics can vary by mod version or config.</p></div>
+    </section>
+
+    <section class="section progression-section" id="progression">
+      <div class="section-kicker">04 / THE ROAD AHEAD</div><div class="section-heading"><h2>FROM SURVIVOR TO <em>MYTH.</em></h2><p>A practical route through the server's systems. This is a recommended order, not a locked questline.</p></div>
+      <div class="timeline">
+        <article class="tier"><div class="tier-marker">I</div><div class="tier-content"><span class="tier-label">EARLY GAME • SURVIVE</span><h3>THE FIRST CAMP</h3><p>Vanilla basics: food, iron tools, shield, reliable armor, bed and a protected base. Start collecting materials and learn the local terrain.</p><div class="chips"><span>Iron gear</span><span>Shield</span><span>Food supply</span><span>Waypoints</span></div></div><div class="tier-aside">FOUNDATION</div></article>
+        <article class="tier"><div class="tier-marker">II</div><div class="tier-content"><span class="tier-label">EARLY–MID GAME • SPECIALIZE</span><h3>CHOOSE YOUR PATH</h3><p>Commit to a class direction and test weapons. Warriors and Rogues lean into melee; Archers control distance; Wizards build spell power; Paladins and Priests support the party.</p><div class="chips"><span>Class abilities</span><span>Simply Swords</span><span>Spell Engine</span><span>Artifacts</span></div></div><div class="tier-aside">IDENTITY</div></article>
+        <article class="tier"><div class="tier-marker">III</div><div class="tier-content"><span class="tier-label">MID GAME • EXPAND</span><h3>HUNT RARE MATERIALS</h3><p>Explore structures and dangerous regions. Use REI to understand Mythic Metals recipes, improve accessories and build a balanced loadout before boss attempts.</p><div class="chips"><span>Mythic Metals</span><span>Trinkets</span><span>AdventureZ</span><span>YUNG's structures</span></div></div><div class="tier-aside">PREPARATION</div></article>
+        <article class="tier"><div class="tier-marker">IV</div><div class="tier-content"><span class="tier-label">LATE GAME • CONQUER</span><h3>CHALLENGE THE BOSSES</h3><p>Coordinate a party for Bosses of Mass Destruction encounters. Study attacks, assign roles and upgrade survivability as well as damage.</p><div class="chips"><span>Bosses of Mass Destruction</span><span>Party roles</span><span>Optimized gear</span></div></div><div class="tier-aside">MASTERY</div></article>
+        <article class="tier"><div class="tier-marker">V</div><div class="tier-content"><span class="tier-label">ENDGAME • EXPLORE</span><h3>BEYOND THE KNOWN</h3><p>Take on the End expansion, seek its materials and finish personal build goals. The strongest setup is the one that fits your role and the encounter.</p><div class="chips"><span>BetterEnd</span><span>End exploration</span><span>Build refinement</span></div></div><div class="tier-aside">LEGACY</div></article>
+      </div>
+    </section>
+
+    <section class="section world-section" id="world">
+      <div class="section-kicker">05 / THE FRONTIERS</div><div class="section-heading"><h2>THERE IS MORE <em>OUT THERE.</em></h2><p>Dimensions, structures and server mechanics that shape exploration.</p></div>
+      <div class="world-grid">
+        <article class="world-card end-card"><div class="world-symbol">◈</div><span class="world-type">DIMENSION EXPANSION</span><h3>THE END</h3><p><b>BetterEnd</b> expands the End with new biomes, blocks, materials and exploration. Treat it as a major expedition, not a casual stroll.</p><a href="https://modrinth.com/mod/betterend" target="_blank" rel="noreferrer">EXPLORE MOD DETAILS ↗</a></article>
+        <article class="world-card temple-card"><div class="world-symbol">⌖</div><span class="world-type">STRUCTURE OVERHAUL</span><h3>DESERT TEMPLES</h3><p><b>YUNG's Better Desert Temples</b> makes desert temple exploration more involved. Watch for traps and search thoroughly.</p><a href="https://modrinth.com/mod/yungs-better-desert-temples" target="_blank" rel="noreferrer">EXPLORE MOD DETAILS ↗</a></article>
+        <article class="world-card nether-card"><div class="world-symbol">⛨</div><span class="world-type">SERVER STATUS</span><h3>THE NETHER</h3><p><b>Better Nether is removed.</b> The server guide does not promise its biomes, mobs, structures or loot. Any structure-only restoration is a separate, untested project.</p><span class="status-removed">REMOVED FROM CURRENT PACK</span></article>
+      </div>
+      <div class="mechanics">
+        <div><span class="mechanic-icon">⌘</span><h4>PARTIES & CLAIMS</h4><p>Open Parties and Claims helps players group up and protect builds. Ask staff about claim limits and trust rules.</p></div>
+        <div><span class="mechanic-icon">✥</span><h4>WAYSTONES</h4><p>Build a travel network between shared hubs, bases and expedition points. Server settings determine access and costs.</p></div>
+        <div><span class="mechanic-icon">◉</span><h4>VOICE CHAT</h4><p>Simple Voice Chat supports proximity communication. Install the matching client mod and configure your microphone.</p></div>
+        <div><span class="mechanic-icon">▦</span><h4>RECIPE KNOWLEDGE</h4><p>REI is your recipe archive. Search an item to see how to craft it and click ingredients to trace the chain.</p></div>
+      </div>
+    </section>
+
+    <section class="section gear-section" id="gear">
+      <div class="section-kicker">06 / EQUIPMENT & BUILDCRAFT</div><div class="section-heading"><h2>BUILD A LOADOUT, <em>NOT A GUESS.</em></h2><p>Understand the equipment layers before spending rare materials.</p></div>
+      <div class="gear-grid">
+        <article><div class="gear-icon">⚔</div><h3>WEAPONS</h3><p>Simply Swords adds weapon variety; Better Combat changes how compatible melee weapons feel. Compare reach, attack speed, special effects and your class skills.</p></article>
+        <article><div class="gear-icon">⬡</div><h3>ARMOR</h3><p>Vanilla armor remains a dependable baseline. Modded armor and Mythic Metals gear add more paths, but the best choice depends on stats, effects and recipe cost.</p></article>
+        <article><div class="gear-icon">✧</div><h3>ARTIFACTS & TRINKETS</h3><p>Accessories can add effects that armor alone cannot. Check available slots, item descriptions and whether effects stack before choosing a set.</p></article>
+        <article><div class="gear-icon">⌁</div><h3>MAGIC & SPELLS</h3><p>Spell Engine and Spell Power support spellcasting. Match spells to your role and balance damage, range, cooldowns and survival.</p></article>
+      </div>
+      <div class="gear-caution"><b>Important:</b> This guide intentionally avoids inventing a universal “best armor” or exact weapon damage ranking. Those values must be extracted from the exact installed JARs and live configs. Use REI and in-game tooltips for the authoritative recipe and stat display.</div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-brand"><span class="brand-mark">✦</span><span>FRIENDS <b>RPG</b></span></div>
+      <p>Made for adventurers, party members and people who definitely did not fall into lava carrying all their diamonds.</p>
+      <div class="footer-bottom"><span>COMMUNITY FIELD GUIDE • MINECRAFT FABRIC 1.20.1</span><a href="#home">BACK TO TOP ↑</a></div>
+    </footer>
+  </main>
+  <div class="modal-backdrop" id="modal" hidden><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="modalClose" aria-label="Close">×</button><div class="modal-kicker" id="modalCategory"></div><h2 id="modalTitle"></h2><div class="modal-version" id="modalVersion"></div><p id="modalDescription"></p><h3>WHAT IT ADDS</h3><ul id="modalFeatures"></ul><div class="modal-links" id="modalLinks"></div></div></div>
+  <script src="data.js"></script><script src="data-bosses.js"></script><script src="app.js"></script>
+</body></html>
