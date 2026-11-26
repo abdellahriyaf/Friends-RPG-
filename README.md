@@ -62,3 +62,30 @@ The site includes an interactive ranking hub for weapons, armor, tools, ores, ac
 **Accuracy note:** numeric rankings currently cover vanilla baselines only. Modded item and difficulty rankings are marked pending verification rather than filled with invented stats. The modded catalogue needs the exact server mod JARs/configuration and, for some items, in-game tooltips or registry data. Add verified entries to `data-rankings.js`.
 
 Each category's `basis` is displayed above its table. Keep separate rankings for different roles or metrics when a single universal order would be misleading.
+
+
+## Expanded mod catalog (research build)
+
+The ranked compendium now includes researched reference catalogues for:
+
+- Simply Swords: 57 unique weapon/form entries, using Awakening 8 base damage × attack speed as a transparent comparison index. Abilities and build synergy are described separately; this is not a universal power ranking.
+- Mythic Metals: named metal/material families from the 1.20.1 reference index. Their order is a practical progression guide, not a claim about exact ore rarity or tier.
+- BetterEnd: 25 named biomes and the documented Thallasium, Terminite, Aeternium and Crystalite material progression.
+- Artifacts: a broad item-name catalogue from a 1.20.1 showcase reference; effects and exact Fabric build coverage still need JAR verification.
+- AdventureZ: known boss and creature names from its 1.20.1 guide.
+- Bosses of Mass Destruction: four bosses, default health values, structures and summon requirements. Health order is not encounter-difficulty order.
+
+## Source links used for researched entries
+
+- Simply Swords unique weapon catalogue and mechanics: https://www.minecraft-guides.com/mod/simply-swords/wiki/unique-weapons/
+- Mythic Metals 1.20.1 item/recipe reference: https://mc-wiki.net/mythicmetals/
+- Mythic Metals 0.19.12+1.20.1 release: https://modrinth.com/mod/mythicmetals/version/0.19.12%2B1.20.1
+- BetterEnd 1.20.1 biomes, recipes and material guide: https://mcmodwiki.com/betterend/1.20.1
+- AdventureZ 1.20.1 item and encounter guide: https://mc-wiki.net/adventurez/
+- Artifacts mod description: https://modrinth.com/mod/artifacts
+- Bosses of Mass Destruction 1.7.5 item list and summoning notes: https://mcmodwiki.com/bosses-of-mass-destruction/1.20.1
+- Bosses of Mass Destruction default boss HP and arenas: https://www.minecraft-guides.com/mod/bosses-of-mass-destruction/
+
+## Important completeness limitation
+
+This ZIP only contained the website source, not the live server's mod JARs or config directory. Therefore it is not technically possible to promise every item, block, recipe, spell, entity, loot table, world-generation feature or server-specific stat across all installed mods from this ZIP alone. The expanded entries above are the fullest researched public-reference pass possible from the known mod list, and unknown/config-dependent facts remain labelled rather than fabricated. A true exhaustive export must parse the exact server JARs and configs (including data packs and generated registries).
