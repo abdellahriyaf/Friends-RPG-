@@ -11,6 +11,7 @@
     "Charm of Sinking": "assets/mod-items/artifacts/charm_of_sinking.png",
     "Helium Flamingo": "assets/mod-items/artifacts/helium_flamingo.png",
     "Golden Hook": "assets/mod-items/artifacts/golden_hook.png",
+    "Vampire Gloves": "assets/mod-items/artifacts/vampiric_glove.png",
     "Whoopee Cushion": "assets/mod-items/artifacts/whoopee_cushion.png",
     "Cloud in a Bottle": "assets/mod-items/artifacts/cloud_in_a_bottle.png",
     "Villager Hat": "assets/mod-items/artifacts/villager_hat.png",
@@ -25,7 +26,9 @@
     "Bunny Hoppers": "assets/mod-items/artifacts/bunny_hoppers.png",
     "Digging Claws": "assets/mod-items/artifacts/digging_claws.png",
     "Feral Claws": "assets/mod-items/artifacts/feral_claws.png",
+    "Flame Gauntlet": "assets/mod-items/artifacts/fire_gauntlet.png",
     "Pocket Piston": "assets/mod-items/artifacts/pocket_piston.png",
+    "Power Gloves": "assets/mod-items/artifacts/power_glove.png",
     "Shock Pendant": "assets/mod-items/artifacts/shock_pendant.png",
     "Flame Pendant": "assets/mod-items/artifacts/flame_pendant.png",
     "Thorn Pendant": "assets/mod-items/artifacts/thorn_pendant.png",
@@ -35,7 +38,9 @@
     "Lucky Scarf": "assets/mod-items/artifacts/lucky_scarf.png",
     "Superstitious Hat": "assets/mod-items/artifacts/superstitious_hat.png",
     "Night Vision Goggles": "assets/mod-items/artifacts/night_vision_goggles.png",
+    "Drinking Hat": "assets/mod-items/artifacts/plastic_drinking_hat.png",
     "Snorkel": "assets/mod-items/artifacts/snorkel.png",
-    "Everlasting Beef": "assets/mod-items/artifacts/everlasting_beef.png"
+    "Everlasting Beef": "assets/mod-items/artifacts/everlasting_beef.png",
+    "Umbrella": "assets/mod-items/artifacts/umbrella_gui.png"
   }
 }
