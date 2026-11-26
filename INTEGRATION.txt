@@ -1,0 +1,18 @@
+FRIENDS RPG - Simply Swords weapon image integration
+
+Replace the repository's app.js with this app.js.
+Copy the included assets/ folder into the repository root, merging with any existing assets folder.
+Append styles.css.addition.txt to the END of the repository's existing styles.css (do not replace styles.css).
+
+No index.html change is required: the image map is embedded in app.js.
+The renderer displays verified images for mapped Simply Swords entries only. Unmapped items remain text-only.
+
+Source audit:
+- Images are composites from the original Simply Swords 1.70.2-1.20.1 item model texture layers.
+- 51 of 57 catalogue entries have an exact generated-item model and directly composable layers.
+- Five greathammers use custom 3D geometry and are intentionally not flattened into inaccurate icons.
+- Longsword of the Plague has no matching item model/texture in the supplied JAR.
+- manifest.json records the source model and texture paths for each mapped icon.
+
+Easy workaround for the six missing icons:
+Use a clean in-game screenshot of each item held in the player's hand or shown in REI, with a neutral background, then crop to a square PNG. This preserves the custom 3D model appearance and is more faithful than flattening its raw textures.

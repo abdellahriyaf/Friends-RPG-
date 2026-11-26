@@ -1,0 +1,868 @@
+{
+  "mod": "Simply Swords",
+  "mod_file": "simplyswords-fabric-1.70.2-1.20.1.jar",
+  "items": [
+    {
+      "name": "Twisted Blade",
+      "model": "simplyswords/models/item/twisted_blade.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/twisted_blade.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/twisted_blade.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Chomp'olotl",
+      "model": "simplyswords/models/item/chompolotl.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/chompolotl_sheet.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/chompolotl.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Tempest",
+      "model": "simplyswords/models/item/tempest.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/tempest_anim_01.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/tempest.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Enigma",
+      "model": "simplyswords/models/item/enigma.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/enigma_lightning.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/enigma_base.png"
+        },
+        {
+          "layer": "layer2",
+          "path": "simplyswords/textures/item/enigma_lights.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/enigma.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Ribboncleaver",
+      "model": "simplyswords/models/item/ribboncleaver.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/ribboncleaver_anim_01.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/ribboncleaver.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Awakened Lichblade",
+      "model": "simplyswords/models/item/awakened_lichblade.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/lichblade.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/lichblade_edge.png"
+        },
+        {
+          "layer": "layer2",
+          "path": "simplyswords/textures/item/lichblade_eyes.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/awakened_lichblade.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Slumbering Lichblade",
+      "model": "simplyswords/models/item/slumbering_lichblade.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/lichblade.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/slumbering_lichblade.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Waking Lichblade",
+      "model": "simplyswords/models/item/waking_lichblade.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/lichblade.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/lichblade_eyes.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/waking_lichblade.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Flamewind",
+      "model": "simplyswords/models/item/flamewind.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/flamewind_anim_01.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/flamewind_anim_02.png"
+        },
+        {
+          "layer": "layer2",
+          "path": "simplyswords/textures/item/flamewind_anim_03.png"
+        },
+        {
+          "layer": "layer3",
+          "path": "simplyswords/textures/item/flamewind_anim_04.png"
+        },
+        {
+          "layer": "layer4",
+          "path": "simplyswords/textures/item/flamewind_anim_05.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/flamewind.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Ionbound Stormscale",
+      "model": "simplyswords/models/item/ionbound_stormscale.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/stormscale.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/ion_stormscale_effect.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/ionbound_stormscale.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Stormscale",
+      "model": "simplyswords/models/item/stormscale.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/stormscale.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/stormscale_effect.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/stormscale.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Soul Pyre",
+      "model": "simplyswords/models/item/soulpyre.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/soulpyre_base_layer.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/soulpyre_glow_layer.png"
+        },
+        {
+          "layer": "layer2",
+          "path": "simplyswords/textures/item/soulpyre_accent_layer.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/soulpyre.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Caelestis",
+      "model": "simplyswords/models/item/caelestis.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/caelestis_hilt_strip.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/caelestis_blade_strip.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/caelestis.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Dawnquiver",
+      "model": "simplyswords/models/item/dawnquiver.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/blue_greatsword_hilt.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/white_greatsword_blade.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/dawnquiver.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Riftmane",
+      "model": "simplyswords/models/item/riftmane.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/blue_greatsword_hilt.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/blue_greatsword_blade.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/riftmane.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Waxweaver",
+      "model": "simplyswords/models/item/waxweaver.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/waxweaver.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/waxweaver_anim_01.png"
+        },
+        {
+          "layer": "layer2",
+          "path": "simplyswords/textures/item/waxweaver_anim_02.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/waxweaver.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Bloodwake",
+      "model": "simplyswords/models/item/bloodwake.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/bloodwake.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/bloodwake.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Wraithfang",
+      "model": "simplyswords/models/item/wraithfang.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/wraithfang_hilt.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/wraithfang_blade.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/wraithfang.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Wraithmaw",
+      "model": "simplyswords/models/item/wraithmaw.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/wraithfang_hilt.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/wraithfang_corrupted_blade.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/wraithmaw.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Brimstone Claymore",
+      "model": "simplyswords/models/item/brimstone_claymore.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/brimstone_claymore.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/brimstone_layer.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/brimstone_claymore.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "The Devourer",
+      "model": "simplyswords/models/item/the_devourer.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/eyeblade_base.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/eyeblade_eyes.png"
+        },
+        {
+          "layer": "layer2",
+          "path": "simplyswords/textures/item/eyeblade_lids_solo_90s.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/the_devourer.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "The Watcher",
+      "model": "simplyswords/models/item/watcher_claymore.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/watcher_claymore.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/watcher_layer.png"
+        },
+        {
+          "layer": "layer2",
+          "path": "simplyswords/textures/item/watcher_eyes.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/watcher_claymore.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Dormant Relic",
+      "model": "simplyswords/models/item/dormant_relic.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/unique_longsword_dull.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/dormant_relic.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Emberblade",
+      "model": "simplyswords/models/item/emberblade.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/emberblade.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/emberblade_layer.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/emberblade.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Harbinger",
+      "model": "simplyswords/models/item/harbinger.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/unique_longsword_tainted_whole_32x32.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/unique_longsword_tainted_layer_32x32.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/harbinger.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Righteous Relic",
+      "model": "simplyswords/models/item/righteous_relic.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/unique_longsword_holy.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/righteous_relic.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Soulrender",
+      "model": "simplyswords/models/item/soulrender.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/soulrender.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/soulrender_layer.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/soulrender.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Soulstalker",
+      "model": "simplyswords/models/item/soulstalker.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/soulrender_variant.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/soulrender_layer_variant.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/soulstalker.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Stormbringer",
+      "model": "simplyswords/models/item/stormbringer.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/stormbringer.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/stormbringer_layer.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/stormbringer.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Sunfire",
+      "model": "simplyswords/models/item/sunfire.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/unique_longsword_holy.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/unique_longsword_holy_layer_32x32.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/sunfire.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Tainted Relic",
+      "model": "simplyswords/models/item/tainted_relic.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/unique_longsword_tainted_whole_32x32.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/tainted_relic.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Emberlash",
+      "model": "simplyswords/models/item/emberlash.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/emberlash.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/emberlash_anim_02.png"
+        },
+        {
+          "layer": "layer2",
+          "path": "simplyswords/textures/item/emberlash_anim_01.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/emberlash.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Soulstealer",
+      "model": "simplyswords/models/item/soulstealer.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/soulstealer.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/soulstealer_layer.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/soulstealer.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Magispear",
+      "model": "simplyswords/models/item/magispear.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/magispear_base.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/magispear_lights.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/magispear.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Decaying Relic",
+      "model": "simplyswords/models/item/decaying_relic.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/decaying_relic.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/decaying_relic.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Magiscythe",
+      "model": "simplyswords/models/item/magiscythe.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/magiscythe.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/magiscythe_lights.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/magiscythe.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Shadowsting",
+      "model": "simplyswords/models/item/shadowsting.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/shadowsting.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/shadowsting_layer_32x32.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/shadowsting.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Watching Warglaive",
+      "model": "simplyswords/models/item/watching_warglaive.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/watching_warglaive.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/watching_warglaive_eyes.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/watching_warglaive.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Arcanethyst",
+      "model": "simplyswords/models/item/arcanethyst.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/arcanethyst_layer.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/arcanethyst.png"
+        },
+        {
+          "layer": "layer2",
+          "path": "simplyswords/textures/item/arcanethyst_glow_layer.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/arcanethyst.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Icewhisper",
+      "model": "simplyswords/models/item/icewhisper.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/icewhisper_layer.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/icewhisper.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/icewhisper.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Thunderbrand",
+      "model": "simplyswords/models/item/thunderbrand.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/thunderbrand_layer_2.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/thunderbrand.png"
+        },
+        {
+          "layer": "layer2",
+          "path": "simplyswords/textures/item/thunderbrand_layer.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/thunderbrand.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Dreadwhisper",
+      "model": "simplyswords/models/item/dreadwhisper.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/whisperwind_corrupted_effect_below.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/whisperwind_corrupted.png"
+        },
+        {
+          "layer": "layer2",
+          "path": "simplyswords/textures/item/whisperwind_corrupted_effect_above.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/dreadwhisper.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Magiblade",
+      "model": "simplyswords/models/item/magiblade.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/magiblade_base.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/magiblade_lights.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/magiblade.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Star's Edge",
+      "model": "simplyswords/models/item/stars_edge.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/stars_edge.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/stars_edge_anim_03.png"
+        },
+        {
+          "layer": "layer2",
+          "path": "simplyswords/textures/item/stars_edge_anim_01.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/stars_edge.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Storm's Edge",
+      "model": "simplyswords/models/item/storms_edge.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/storms_edge.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/storms_edge_layer.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/storms_edge.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Whisperwind",
+      "model": "simplyswords/models/item/whisperwind.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/whisperwind_effect_below.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/whisperwind.png"
+        },
+        {
+          "layer": "layer2",
+          "path": "simplyswords/textures/item/whisperwind_effect_above.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/whisperwind.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Gloampiercer",
+      "model": "simplyswords/models/item/gloampiercer.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/wickpiercer_variant.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/wickpiercer_anim_01.png"
+        },
+        {
+          "layer": "layer2",
+          "path": "simplyswords/textures/item/wickpiercer_anim_02_variant.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/gloampiercer.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Livyatan",
+      "model": "simplyswords/models/item/livyatan.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/livyatan.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/livyatan.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Molten Edge",
+      "model": "simplyswords/models/item/molten_edge.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/molten_edge.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/molten_edge_layer.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/molten_edge.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Wickpiercer",
+      "model": "simplyswords/models/item/wickpiercer.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/wickpiercer.png"
+        },
+        {
+          "layer": "layer1",
+          "path": "simplyswords/textures/item/wickpiercer_anim_01.png"
+        },
+        {
+          "layer": "layer2",
+          "path": "simplyswords/textures/item/wickpiercer_anim_02.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/wickpiercer.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    },
+    {
+      "name": "Bramblethorn",
+      "model": "simplyswords/models/item/bramblethorn.json",
+      "textures": [
+        {
+          "layer": "layer0",
+          "path": "simplyswords/textures/item/bramblethorn.png"
+        }
+      ],
+      "image": "assets/weapons/simply-swords/bramblethorn.png",
+      "source": "Original texture layers from simplyswords-fabric-1.70.2-1.20.1.jar; first animation frame composited in model layer order."
+    }
+  ],
+  "unmapped": [
+    {
+      "name": "Longsword of the Plague",
+      "reason": "No matching item model or texture was found in the supplied Simply Swords JAR. Not assigned a guessed image."
+    },
+    {
+      "name": "Mjolnir",
+      "reason": "Uses a custom 3D greathammer model; a flat texture composite would not represent the in-game item icon accurately."
+    },
+    {
+      "name": "Hearthflame",
+      "reason": "Uses a custom 3D greathammer model; a flat texture composite would not represent the in-game item icon accurately."
+    },
+    {
+      "name": "Hiveheart",
+      "reason": "Uses a custom 3D greathammer model; a flat texture composite would not represent the in-game item icon accurately."
+    },
+    {
+      "name": "Soulkeeper",
+      "reason": "Uses a custom 3D greathammer model; a flat texture composite would not represent the in-game item icon accurately."
+    },
+    {
+      "name": "Frostfall",
+      "reason": "Uses a custom 3D greathammer model; a flat texture composite would not represent the in-game item icon accurately."
+    }
+  ]
+}

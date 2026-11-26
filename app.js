@@ -70,6 +70,63 @@ const rankingBasis=document.getElementById("rankingBasis");
 const rankingOrder=["weapons","simplySwords","armor","tools","ores","mythicMetals","betterEnd","artifacts","accessories","magic","bosses","adventureZ","mobs","world"].filter(key=>RANKING_DATA[key]);
 const rankingLabels={weapons:"Vanilla Weapons",simplySwords:"Simply Swords",armor:"Armor",tools:"Tools",ores:"Vanilla Ores",mythicMetals:"Mythic Metals",betterEnd:"BetterEnd",artifacts:"Artifacts",accessories:"Accessories",magic:"Magic & Spells",bosses:"Bosses",adventureZ:"AdventureZ",mobs:"Mobs",world:"World"};
 let activeRanking="weapons";
+
+// Exact image paths are supplied by the original Simply Swords JAR model/texture audit.
+// Missing entries intentionally remain text-only; no substitute image is invented.
+const WEAPON_IMAGE_MAP = {
+  "Twisted Blade":"assets/weapons/simply-swords/twisted_blade.png",
+  "Chomp'olotl":"assets/weapons/simply-swords/chompolotl.png",
+  "Tempest":"assets/weapons/simply-swords/tempest.png",
+  "Enigma":"assets/weapons/simply-swords/enigma.png",
+  "Ribboncleaver":"assets/weapons/simply-swords/ribboncleaver.png",
+  "Awakened Lichblade":"assets/weapons/simply-swords/awakened_lichblade.png",
+  "Slumbering Lichblade":"assets/weapons/simply-swords/slumbering_lichblade.png",
+  "Waking Lichblade":"assets/weapons/simply-swords/waking_lichblade.png",
+  "Flamewind":"assets/weapons/simply-swords/flamewind.png",
+  "Ionbound Stormscale":"assets/weapons/simply-swords/ionbound_stormscale.png",
+  "Stormscale":"assets/weapons/simply-swords/stormscale.png",
+  "Soul Pyre":"assets/weapons/simply-swords/soulpyre.png",
+  "Caelestis":"assets/weapons/simply-swords/caelestis.png",
+  "Dawnquiver":"assets/weapons/simply-swords/dawnquiver.png",
+  "Riftmane":"assets/weapons/simply-swords/riftmane.png",
+  "Waxweaver":"assets/weapons/simply-swords/waxweaver.png",
+  "Bloodwake":"assets/weapons/simply-swords/bloodwake.png",
+  "Wraithfang":"assets/weapons/simply-swords/wraithfang.png",
+  "Wraithmaw":"assets/weapons/simply-swords/wraithmaw.png",
+  "Brimstone Claymore":"assets/weapons/simply-swords/brimstone_claymore.png",
+  "The Devourer":"assets/weapons/simply-swords/the_devourer.png",
+  "The Watcher":"assets/weapons/simply-swords/watcher_claymore.png",
+  "Dormant Relic":"assets/weapons/simply-swords/dormant_relic.png",
+  "Emberblade":"assets/weapons/simply-swords/emberblade.png",
+  "Harbinger":"assets/weapons/simply-swords/harbinger.png",
+  "Righteous Relic":"assets/weapons/simply-swords/righteous_relic.png",
+  "Soulrender":"assets/weapons/simply-swords/soulrender.png",
+  "Soulstalker":"assets/weapons/simply-swords/soulstalker.png",
+  "Stormbringer":"assets/weapons/simply-swords/stormbringer.png",
+  "Sunfire":"assets/weapons/simply-swords/sunfire.png",
+  "Tainted Relic":"assets/weapons/simply-swords/tainted_relic.png",
+  "Emberlash":"assets/weapons/simply-swords/emberlash.png",
+  "Soulstealer":"assets/weapons/simply-swords/soulstealer.png",
+  "Magispear":"assets/weapons/simply-swords/magispear.png",
+  "Decaying Relic":"assets/weapons/simply-swords/decaying_relic.png",
+  "Magiscythe":"assets/weapons/simply-swords/magiscythe.png",
+  "Shadowsting":"assets/weapons/simply-swords/shadowsting.png",
+  "Watching Warglaive":"assets/weapons/simply-swords/watching_warglaive.png",
+  "Arcanethyst":"assets/weapons/simply-swords/arcanethyst.png",
+  "Icewhisper":"assets/weapons/simply-swords/icewhisper.png",
+  "Thunderbrand":"assets/weapons/simply-swords/thunderbrand.png",
+  "Dreadwhisper":"assets/weapons/simply-swords/dreadwhisper.png",
+  "Magiblade":"assets/weapons/simply-swords/magiblade.png",
+  "Star's Edge":"assets/weapons/simply-swords/stars_edge.png",
+  "Storm's Edge":"assets/weapons/simply-swords/storms_edge.png",
+  "Whisperwind":"assets/weapons/simply-swords/whisperwind.png",
+  "Gloampiercer":"assets/weapons/simply-swords/gloampiercer.png",
+  "Livyatan":"assets/weapons/simply-swords/livyatan.png",
+  "Molten Edge":"assets/weapons/simply-swords/molten_edge.png",
+  "Wickpiercer":"assets/weapons/simply-swords/wickpiercer.png",
+  "Bramblethorn":"assets/weapons/simply-swords/bramblethorn.png"
+};
+
 function renderRanking(){
  rankingTabs.innerHTML="";
  rankingOrder.forEach(key=>{const b=document.createElement("button");b.className="rank-tab"+(key===activeRanking?" active":"");b.textContent=rankingLabels[key]||key;b.addEventListener("click",()=>{activeRanking=key;renderRanking()});rankingTabs.appendChild(b)});
@@ -77,6 +134,23 @@ function renderRanking(){
  if(!group){rankingBasis.textContent="No ranking data is available for this category.";rankingRows.innerHTML="";return}
  rankingBasis.textContent=group.basis||"Comparison basis not supplied.";rankingRows.innerHTML="";
  if(!group.entries || !group.entries.length){const tr=document.createElement("tr");tr.innerHTML=`<td colspan="4" class="rank-empty"><span>✧</span><b>${escapeHtml(group.label||activeRanking)} catalogue pending verification</b><small>This category is reserved in the guide, but no unsupported ranking has been published.</small></td>`;rankingRows.appendChild(tr);return}
- group.entries.forEach(([name,rank,stat,note])=>{const tr=document.createElement("tr");tr.innerHTML=`<td><span class="rank-number">${escapeHtml(rank)}</span></td><td><b>${escapeHtml(name)}</b></td><td>${escapeHtml(stat)}</td><td>${escapeHtml(note)}</td>`;rankingRows.appendChild(tr)});
+ group.entries.forEach(([name,rank,stat,note])=>{
+   const tr=document.createElement("tr");
+   const rankCell=document.createElement("td");
+   const rankBadge=document.createElement("span");
+   rankBadge.className="rank-number";rankBadge.textContent=rank;rankCell.appendChild(rankBadge);
+   const nameCell=document.createElement("td");
+   const imagePath=activeRanking==="simplySwords"?WEAPON_IMAGE_MAP[name]:null;
+   if(imagePath){
+     const img=document.createElement("img");
+     img.className="rank-item-image";img.src=imagePath;img.alt="";img.loading="lazy";img.decoding="async";
+     img.addEventListener("error",()=>img.remove(),{once:true});
+     nameCell.appendChild(img);
+   }
+   const itemName=document.createElement("b");itemName.textContent=name;nameCell.appendChild(itemName);
+   const statCell=document.createElement("td");statCell.textContent=stat;
+   const noteCell=document.createElement("td");noteCell.textContent=note;
+   tr.append(rankCell,nameCell,statCell,noteCell);rankingRows.appendChild(tr);
+ });
 }
 renderRanking();
