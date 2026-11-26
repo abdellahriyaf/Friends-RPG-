@@ -1,0 +1,3391 @@
+{
+  "source_archive": "friends-rpg-remaining-assets.zip",
+  "minecraft_version": "1.20.1",
+  "generated_item_icons": 373,
+  "entity_textures_copied": 205,
+  "item_icons_by_namespace": {
+    "artifacts": 44,
+    "bosses_of_mass_destruction": 14,
+    "runes": 12,
+    "waystones": 7,
+    "remnant_mobs": 6,
+    "worldbosses": 129,
+    "betterend": 122,
+    "travelersbackpack": 39
+  },
+  "entity_textures_by_namespace": {
+    "artifacts": 54,
+    "bosses_of_mass_destruction": 13,
+    "worldbosses": 53,
+    "betterend": 85
+  },
+  "rank_image_matches": {
+    "artifacts": 37
+  },
+  "notes": [
+    "Item icons are composites of original mod texture layers referenced by item model JSON.",
+    "They are 2D item sprites, not rendered 3D models.",
+    "Entity textures are original PNGs copied from the source mod JARs; they are not rendered entity previews.",
+    "Block-model items without generated item layers are not included in the flat item icon set.",
+    "Language names are resolved from en_us.json where available."
+  ],
+  "items": [
+    {
+      "namespace": "artifacts",
+      "model": "anglers_hat",
+      "name": "Angler's Hat",
+      "image": "assets/mod-items/artifacts/anglers_hat.png",
+      "layers": [
+        "artifacts:item/anglers_hat"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "antidote_vessel",
+      "name": "Antidote Vessel",
+      "image": "assets/mod-items/artifacts/antidote_vessel.png",
+      "layers": [
+        "artifacts:item/antidote_vessel"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "aqua_dashers",
+      "name": "Aqua-Dashers",
+      "image": "assets/mod-items/artifacts/aqua_dashers.png",
+      "layers": [
+        "artifacts:item/aqua_dashers"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "bunny_hoppers",
+      "name": "Bunny Hoppers",
+      "image": "assets/mod-items/artifacts/bunny_hoppers.png",
+      "layers": [
+        "artifacts:item/bunny_hoppers"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "charm_of_sinking",
+      "name": "Charm of Sinking",
+      "image": "assets/mod-items/artifacts/charm_of_sinking.png",
+      "layers": [
+        "artifacts:item/charm_of_sinking"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "chorus_totem",
+      "name": "Chorus Totem",
+      "image": "assets/mod-items/artifacts/chorus_totem.png",
+      "layers": [
+        "artifacts:item/chorus_totem"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "cloud_in_a_bottle",
+      "name": "Cloud in a Bottle",
+      "image": "assets/mod-items/artifacts/cloud_in_a_bottle.png",
+      "layers": [
+        "artifacts:item/cloud_in_a_bottle"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "cowboy_hat",
+      "name": "Cowboy Hat",
+      "image": "assets/mod-items/artifacts/cowboy_hat.png",
+      "layers": [
+        "artifacts:item/cowboy_hat"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "cross_necklace",
+      "name": "Cross Necklace",
+      "image": "assets/mod-items/artifacts/cross_necklace.png",
+      "layers": [
+        "artifacts:item/cross_necklace"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "crystal_heart",
+      "name": "Crystal Heart",
+      "image": "assets/mod-items/artifacts/crystal_heart.png",
+      "layers": [
+        "artifacts:item/crystal_heart"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "digging_claws",
+      "name": "Digging Claws",
+      "image": "assets/mod-items/artifacts/digging_claws.png",
+      "layers": [
+        "artifacts:item/digging_claws"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "eternal_steak",
+      "name": "Eternal Steak",
+      "image": "assets/mod-items/artifacts/eternal_steak.png",
+      "layers": [
+        "artifacts:item/eternal_steak"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "everlasting_beef",
+      "name": "Everlasting Beef",
+      "image": "assets/mod-items/artifacts/everlasting_beef.png",
+      "layers": [
+        "artifacts:item/everlasting_beef"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "feral_claws",
+      "name": "Feral Claws",
+      "image": "assets/mod-items/artifacts/feral_claws.png",
+      "layers": [
+        "artifacts:item/feral_claws"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "fire_gauntlet",
+      "name": "Fire Gauntlet",
+      "image": "assets/mod-items/artifacts/fire_gauntlet.png",
+      "layers": [
+        "artifacts:item/fire_gauntlet"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "flame_pendant",
+      "name": "Flame Pendant",
+      "image": "assets/mod-items/artifacts/flame_pendant.png",
+      "layers": [
+        "artifacts:item/flame_pendant"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "flippers",
+      "name": "Flippers",
+      "image": "assets/mod-items/artifacts/flippers.png",
+      "layers": [
+        "artifacts:item/flippers"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "golden_hook",
+      "name": "Golden Hook",
+      "image": "assets/mod-items/artifacts/golden_hook.png",
+      "layers": [
+        "artifacts:item/golden_hook"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "helium_flamingo",
+      "name": "Helium Flamingo",
+      "image": "assets/mod-items/artifacts/helium_flamingo.png",
+      "layers": [
+        "artifacts:item/helium_flamingo"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "kitty_slippers",
+      "name": "Kitty Slippers",
+      "image": "assets/mod-items/artifacts/kitty_slippers.png",
+      "layers": [
+        "artifacts:item/kitty_slippers"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "lucky_scarf",
+      "name": "Lucky Scarf",
+      "image": "assets/mod-items/artifacts/lucky_scarf.png",
+      "layers": [
+        "artifacts:item/lucky_scarf"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "night_vision_goggles",
+      "name": "Night Vision Goggles",
+      "image": "assets/mod-items/artifacts/night_vision_goggles.png",
+      "layers": [
+        "artifacts:item/night_vision_goggles"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "novelty_drinking_hat",
+      "name": "Novelty Drinking Hat",
+      "image": "assets/mod-items/artifacts/novelty_drinking_hat.png",
+      "layers": [
+        "artifacts:item/novelty_drinking_hat"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "obsidian_skull",
+      "name": "Obsidian Skull",
+      "image": "assets/mod-items/artifacts/obsidian_skull.png",
+      "layers": [
+        "artifacts:item/obsidian_skull"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "onion_ring",
+      "name": "Onion Ring",
+      "image": "assets/mod-items/artifacts/onion_ring.png",
+      "layers": [
+        "artifacts:item/onion_ring"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "panic_necklace",
+      "name": "Panic Necklace",
+      "image": "assets/mod-items/artifacts/panic_necklace.png",
+      "layers": [
+        "artifacts:item/panic_necklace"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "pickaxe_heater",
+      "name": "Pickaxe Heater",
+      "image": "assets/mod-items/artifacts/pickaxe_heater.png",
+      "layers": [
+        "artifacts:item/pickaxe_heater"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "plastic_drinking_hat",
+      "name": "Plastic Drinking Hat",
+      "image": "assets/mod-items/artifacts/plastic_drinking_hat.png",
+      "layers": [
+        "artifacts:item/plastic_drinking_hat"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "pocket_piston",
+      "name": "Pocket Piston",
+      "image": "assets/mod-items/artifacts/pocket_piston.png",
+      "layers": [
+        "artifacts:item/pocket_piston"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "power_glove",
+      "name": "Power Glove",
+      "image": "assets/mod-items/artifacts/power_glove.png",
+      "layers": [
+        "artifacts:item/power_glove"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "rooted_boots",
+      "name": "Rooted Boots",
+      "image": "assets/mod-items/artifacts/rooted_boots.png",
+      "layers": [
+        "artifacts:item/rooted_boots"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "running_shoes",
+      "name": "Running Shoes",
+      "image": "assets/mod-items/artifacts/running_shoes.png",
+      "layers": [
+        "artifacts:item/running_shoes"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "scarf_of_invisibility",
+      "name": "Scarf of Invisibility",
+      "image": "assets/mod-items/artifacts/scarf_of_invisibility.png",
+      "layers": [
+        "artifacts:item/scarf_of_invisibility"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "shock_pendant",
+      "name": "Shock Pendant",
+      "image": "assets/mod-items/artifacts/shock_pendant.png",
+      "layers": [
+        "artifacts:item/shock_pendant"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "snorkel",
+      "name": "Snorkel",
+      "image": "assets/mod-items/artifacts/snorkel.png",
+      "layers": [
+        "artifacts:item/snorkel"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "snowshoes",
+      "name": "Snowshoes",
+      "image": "assets/mod-items/artifacts/snowshoes.png",
+      "layers": [
+        "artifacts:item/snowshoes"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "steadfast_spikes",
+      "name": "Steadfast Spikes",
+      "image": "assets/mod-items/artifacts/steadfast_spikes.png",
+      "layers": [
+        "artifacts:item/steadfast_spikes"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "superstitious_hat",
+      "name": "Superstitious Hat",
+      "image": "assets/mod-items/artifacts/superstitious_hat.png",
+      "layers": [
+        "artifacts:item/superstitious_hat"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "thorn_pendant",
+      "name": "Thorn Pendant",
+      "image": "assets/mod-items/artifacts/thorn_pendant.png",
+      "layers": [
+        "artifacts:item/thorn_pendant"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "umbrella_gui",
+      "name": "Umbrella Gui",
+      "image": "assets/mod-items/artifacts/umbrella_gui.png",
+      "layers": [
+        "artifacts:item/umbrella_gui"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "universal_attractor",
+      "name": "Universal Attractor",
+      "image": "assets/mod-items/artifacts/universal_attractor.png",
+      "layers": [
+        "artifacts:item/universal_attractor"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "vampiric_glove",
+      "name": "Vampiric Glove",
+      "image": "assets/mod-items/artifacts/vampiric_glove.png",
+      "layers": [
+        "artifacts:item/vampiric_glove"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "villager_hat",
+      "name": "Villager Hat",
+      "image": "assets/mod-items/artifacts/villager_hat.png",
+      "layers": [
+        "artifacts:item/villager_hat"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "model": "whoopee_cushion",
+      "name": "Whoopee Cushion",
+      "image": "assets/mod-items/artifacts/whoopee_cushion.png",
+      "layers": [
+        "artifacts:item/whoopee_cushion"
+      ]
+    },
+    {
+      "namespace": "bosses_of_mass_destruction",
+      "model": "void_thorn",
+      "name": "Void Thorn",
+      "image": "assets/mod-items/bosses_of_mass_destruction/void_thorn.png",
+      "layers": [
+        "bosses_of_mass_destruction:item/void_thorn"
+      ]
+    },
+    {
+      "namespace": "bosses_of_mass_destruction",
+      "model": "void_lily",
+      "name": "Void Lily",
+      "image": "assets/mod-items/bosses_of_mass_destruction/void_lily.png",
+      "layers": [
+        "bosses_of_mass_destruction:block/void_lily"
+      ]
+    },
+    {
+      "namespace": "bosses_of_mass_destruction",
+      "model": "vine_wall",
+      "name": "Vine Wall",
+      "image": "assets/mod-items/bosses_of_mass_destruction/vine_wall.png",
+      "layers": [
+        "bosses_of_mass_destruction:block/vine_wall"
+      ]
+    },
+    {
+      "namespace": "bosses_of_mass_destruction",
+      "model": "soul_star",
+      "name": "Soul Star",
+      "image": "assets/mod-items/bosses_of_mass_destruction/soul_star.png",
+      "layers": [
+        "bosses_of_mass_destruction:item/soul_star"
+      ]
+    },
+    {
+      "namespace": "bosses_of_mass_destruction",
+      "model": "obsidian_heart",
+      "name": "Obsidian Heart",
+      "image": "assets/mod-items/bosses_of_mass_destruction/obsidian_heart.png",
+      "layers": [
+        "bosses_of_mass_destruction:item/obsidian_heart"
+      ]
+    },
+    {
+      "namespace": "bosses_of_mass_destruction",
+      "model": "monolith_block",
+      "name": "Monolith Block",
+      "image": "assets/mod-items/bosses_of_mass_destruction/monolith_block.png",
+      "layers": [
+        "bosses_of_mass_destruction:item/monolith"
+      ]
+    },
+    {
+      "namespace": "bosses_of_mass_destruction",
+      "model": "mob_ward",
+      "name": "Mob Ward",
+      "image": "assets/mod-items/bosses_of_mass_destruction/mob_ward.png",
+      "layers": [
+        "bosses_of_mass_destruction:item/mob_ward"
+      ]
+    },
+    {
+      "namespace": "bosses_of_mass_destruction",
+      "model": "earthdive_spear_throwing",
+      "name": "Earthdive Spear Throwing",
+      "image": "assets/mod-items/bosses_of_mass_destruction/earthdive_spear_throwing.png",
+      "layers": [
+        "bosses_of_mass_destruction:item/earthdive_spear"
+      ]
+    },
+    {
+      "namespace": "bosses_of_mass_destruction",
+      "model": "earthdive_spear",
+      "name": "Earthdive Spear",
+      "image": "assets/mod-items/bosses_of_mass_destruction/earthdive_spear.png",
+      "layers": [
+        "bosses_of_mass_destruction:item/earthdive_spear"
+      ]
+    },
+    {
+      "namespace": "bosses_of_mass_destruction",
+      "model": "crystal_fruit",
+      "name": "Crystal Fruit",
+      "image": "assets/mod-items/bosses_of_mass_destruction/crystal_fruit.png",
+      "layers": [
+        "bosses_of_mass_destruction:item/crystal_fruit"
+      ]
+    },
+    {
+      "namespace": "bosses_of_mass_destruction",
+      "model": "charged_ender_pearl",
+      "name": "Charged Ender Pearl",
+      "image": "assets/mod-items/bosses_of_mass_destruction/charged_ender_pearl.png",
+      "layers": [
+        "bosses_of_mass_destruction:item/charged_ender_pearl"
+      ]
+    },
+    {
+      "namespace": "bosses_of_mass_destruction",
+      "model": "brimstone_nectar",
+      "name": "Brimstone Nectar",
+      "image": "assets/mod-items/bosses_of_mass_destruction/brimstone_nectar.png",
+      "layers": [
+        "bosses_of_mass_destruction:item/brimstone_nectar"
+      ]
+    },
+    {
+      "namespace": "bosses_of_mass_destruction",
+      "model": "blazing_eye",
+      "name": "Blazing Eye",
+      "image": "assets/mod-items/bosses_of_mass_destruction/blazing_eye.png",
+      "layers": [
+        "bosses_of_mass_destruction:item/blazing_eye"
+      ]
+    },
+    {
+      "namespace": "bosses_of_mass_destruction",
+      "model": "ancient_anima",
+      "name": "Ancient Anima",
+      "image": "assets/mod-items/bosses_of_mass_destruction/ancient_anima.png",
+      "layers": [
+        "bosses_of_mass_destruction:item/ancient_anima"
+      ]
+    },
+    {
+      "namespace": "runes",
+      "model": "arcane_stone",
+      "name": "Arcane Rune",
+      "image": "assets/mod-items/runes/arcane_stone.png",
+      "layers": [
+        "runes:item/arcane_stone"
+      ]
+    },
+    {
+      "namespace": "runes",
+      "model": "fire_stone",
+      "name": "Fire Rune",
+      "image": "assets/mod-items/runes/fire_stone.png",
+      "layers": [
+        "runes:item/fire_stone"
+      ]
+    },
+    {
+      "namespace": "runes",
+      "model": "frost_stone",
+      "name": "Frost Rune",
+      "image": "assets/mod-items/runes/frost_stone.png",
+      "layers": [
+        "runes:item/frost_stone"
+      ]
+    },
+    {
+      "namespace": "runes",
+      "model": "healing_stone",
+      "name": "Healing Rune",
+      "image": "assets/mod-items/runes/healing_stone.png",
+      "layers": [
+        "runes:item/healing_stone"
+      ]
+    },
+    {
+      "namespace": "runes",
+      "model": "large_rune_pouch",
+      "name": "Mystic Rune Pouch",
+      "image": "assets/mod-items/runes/large_rune_pouch.png",
+      "layers": [
+        "runes:item/large_rune_pouch"
+      ]
+    },
+    {
+      "namespace": "runes",
+      "model": "large_rune_pouch_filled",
+      "name": "Large Rune Pouch Filled",
+      "image": "assets/mod-items/runes/large_rune_pouch_filled.png",
+      "layers": [
+        "runes:item/large_rune_pouch_filled"
+      ]
+    },
+    {
+      "namespace": "runes",
+      "model": "lightning_stone",
+      "name": "Lightning Rune",
+      "image": "assets/mod-items/runes/lightning_stone.png",
+      "layers": [
+        "runes:item/lightning_stone"
+      ]
+    },
+    {
+      "namespace": "runes",
+      "model": "medium_rune_pouch",
+      "name": "Phantom Rune Pouch",
+      "image": "assets/mod-items/runes/medium_rune_pouch.png",
+      "layers": [
+        "runes:item/medium_rune_pouch"
+      ]
+    },
+    {
+      "namespace": "runes",
+      "model": "medium_rune_pouch_filled",
+      "name": "Medium Rune Pouch Filled",
+      "image": "assets/mod-items/runes/medium_rune_pouch_filled.png",
+      "layers": [
+        "runes:item/medium_rune_pouch_filled"
+      ]
+    },
+    {
+      "namespace": "runes",
+      "model": "small_rune_pouch",
+      "name": "Rune Pouch",
+      "image": "assets/mod-items/runes/small_rune_pouch.png",
+      "layers": [
+        "runes:item/small_rune_pouch"
+      ]
+    },
+    {
+      "namespace": "runes",
+      "model": "small_rune_pouch_filled",
+      "name": "Small Rune Pouch Filled",
+      "image": "assets/mod-items/runes/small_rune_pouch_filled.png",
+      "layers": [
+        "runes:item/small_rune_pouch_filled"
+      ]
+    },
+    {
+      "namespace": "runes",
+      "model": "soul_stone",
+      "name": "Soul Rune",
+      "image": "assets/mod-items/runes/soul_stone.png",
+      "layers": [
+        "runes:item/soul_stone"
+      ]
+    },
+    {
+      "namespace": "waystones",
+      "model": "attuned_shard",
+      "name": "Attuned Shard",
+      "image": "assets/mod-items/waystones/attuned_shard.png",
+      "layers": [
+        "waystones:item/attuned_shard"
+      ]
+    },
+    {
+      "namespace": "waystones",
+      "model": "bound_scroll",
+      "name": "Bound Scroll",
+      "image": "assets/mod-items/waystones/bound_scroll.png",
+      "layers": [
+        "waystones:item/bound_scroll"
+      ]
+    },
+    {
+      "namespace": "waystones",
+      "model": "crumbling_attuned_shard",
+      "name": "Crumbling Attuned Shard",
+      "image": "assets/mod-items/waystones/crumbling_attuned_shard.png",
+      "layers": [
+        "waystones:item/crumbling_attuned_shard"
+      ]
+    },
+    {
+      "namespace": "waystones",
+      "model": "return_scroll",
+      "name": "Return Scroll",
+      "image": "assets/mod-items/waystones/return_scroll.png",
+      "layers": [
+        "waystones:item/return_scroll"
+      ]
+    },
+    {
+      "namespace": "waystones",
+      "model": "warp_dust",
+      "name": "Warp Dust",
+      "image": "assets/mod-items/waystones/warp_dust.png",
+      "layers": [
+        "waystones:item/warp_dust"
+      ]
+    },
+    {
+      "namespace": "waystones",
+      "model": "warp_scroll",
+      "name": "Warp Scroll",
+      "image": "assets/mod-items/waystones/warp_scroll.png",
+      "layers": [
+        "waystones:item/warp_scroll"
+      ]
+    },
+    {
+      "namespace": "waystones",
+      "model": "warp_stone",
+      "name": "Warp Stone",
+      "image": "assets/mod-items/waystones/warp_stone.png",
+      "layers": [
+        "waystones:item/warp_stone"
+      ]
+    },
+    {
+      "namespace": "remnant_mobs",
+      "model": "brand_of_challenge",
+      "name": "Brand of Challenge",
+      "image": "assets/mod-items/remnant_mobs/brand_of_challenge.png",
+      "layers": [
+        "remnant_mobs:item/brand_of_challenge"
+      ]
+    },
+    {
+      "namespace": "remnant_mobs",
+      "model": "hunters_draught",
+      "name": "Hunter's Draught",
+      "image": "assets/mod-items/remnant_mobs/hunters_draught.png",
+      "layers": [
+        "remnant_mobs:item/hunters_draught"
+      ]
+    },
+    {
+      "namespace": "remnant_mobs",
+      "model": "hunters_lens",
+      "name": "Hunter's Lens",
+      "image": "assets/mod-items/remnant_mobs/hunters_lens.png",
+      "layers": [
+        "remnant_mobs:item/hunters_lens"
+      ]
+    },
+    {
+      "namespace": "remnant_mobs",
+      "model": "mending_salve",
+      "name": "Mending Salve",
+      "image": "assets/mod-items/remnant_mobs/mending_salve.png",
+      "layers": [
+        "remnant_mobs:item/mending_salve"
+      ]
+    },
+    {
+      "namespace": "remnant_mobs",
+      "model": "remnant_shard",
+      "name": "Remnant Shard",
+      "image": "assets/mod-items/remnant_mobs/remnant_shard.png",
+      "layers": [
+        "remnant_mobs:item/remnant_shard"
+      ]
+    },
+    {
+      "namespace": "remnant_mobs",
+      "model": "vital_ember",
+      "name": "Vital Ember",
+      "image": "assets/mod-items/remnant_mobs/vital_ember.png",
+      "layers": [
+        "remnant_mobs:item/vital_ember"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "angel_spawn_egg",
+      "name": "Angel Spawn Egg",
+      "image": "assets/mod-items/worldbosses/angel_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/angel_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "astrael_shard",
+      "name": "Astrael Shard",
+      "image": "assets/mod-items/worldbosses/astrael_shard.png",
+      "layers": [
+        "worldbosses:item/astrael_shard"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "astrael_spawn_egg",
+      "name": "Astrael Spawn Egg",
+      "image": "assets/mod-items/worldbosses/astrael_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/astrael_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "astrael_trophy",
+      "name": "Astrael Trophy",
+      "image": "assets/mod-items/worldbosses/astrael_trophy.png",
+      "layers": [
+        "worldbosses:item/astrael_trophy"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "aureon_shard",
+      "name": "Aureon Shard",
+      "image": "assets/mod-items/worldbosses/aureon_shard.png",
+      "layers": [
+        "worldbosses:item/aureon_shard"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "aureon_spawn_egg",
+      "name": "Aureon Spawn Egg",
+      "image": "assets/mod-items/worldbosses/aureon_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/aureon_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "aureon_trophy",
+      "name": "Aureon Trophy",
+      "image": "assets/mod-items/worldbosses/aureon_trophy.png",
+      "layers": [
+        "worldbosses:item/aureon_trophy"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "baby_dragon_spawn_egg",
+      "name": "Baby Dragon Spawn Egg",
+      "image": "assets/mod-items/worldbosses/baby_dragon_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/baby_dragon_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "boss_codex",
+      "name": "Boss Codex",
+      "image": "assets/mod-items/worldbosses/boss_codex.png",
+      "layers": [
+        "worldbosses:item/boss_codex"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "caelestine",
+      "name": "Caelestine",
+      "image": "assets/mod-items/worldbosses/caelestine.png",
+      "layers": [
+        "worldbosses:item/caelestine"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "cloud_sheep_spawn_egg",
+      "name": "Cloud Sheep Spawn Egg",
+      "image": "assets/mod-items/worldbosses/cloud_sheep_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/cloud_sheep_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "cloudbloom",
+      "name": "Cloudbloom",
+      "image": "assets/mod-items/worldbosses/cloudbloom.png",
+      "layers": [
+        "worldbosses:block/cloudbloom"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "dark_slime_spawn_egg",
+      "name": "Dark Slime Spawn Egg",
+      "image": "assets/mod-items/worldbosses/dark_slime_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/dark_slime_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "dragon_mother_spawn_egg",
+      "name": "Dragon Mother Spawn Egg",
+      "image": "assets/mod-items/worldbosses/dragon_mother_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/dragon_mother_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "dragon_raid_cache",
+      "name": "Dragon Raid Cache",
+      "image": "assets/mod-items/worldbosses/dragon_raid_cache.png",
+      "layers": [
+        "worldbosses:item/dragon_raid_cache"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "dragon_sigil",
+      "name": "Dragon Sigil",
+      "image": "assets/mod-items/worldbosses/dragon_sigil.png",
+      "layers": [
+        "worldbosses:item/dragon_sigil"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "dragon_soul_shard",
+      "name": "Dragon Soul Shard",
+      "image": "assets/mod-items/worldbosses/dragon_soul_shard.png",
+      "layers": [
+        "worldbosses:item/dragon_soul_shard"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "dried_gloomberries",
+      "name": "Dried Gloomberries",
+      "image": "assets/mod-items/worldbosses/dried_gloomberries.png",
+      "layers": [
+        "worldbosses:item/dried_gloomberries"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "dune_element",
+      "name": "Dune Element",
+      "image": "assets/mod-items/worldbosses/dune_element.png",
+      "layers": [
+        "worldbosses:item/dune_element"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "dune_raid_cache",
+      "name": "Dune Raid Cache",
+      "image": "assets/mod-items/worldbosses/dune_raid_cache.png",
+      "layers": [
+        "worldbosses:item/dune_raid_cache"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "eclipse_soulstone",
+      "name": "Eclipse Soulstone",
+      "image": "assets/mod-items/worldbosses/eclipse_soulstone.png",
+      "layers": [
+        "worldbosses:item/eclipse_soulstone"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "elyndra_shard",
+      "name": "Elyndra Shard",
+      "image": "assets/mod-items/worldbosses/elyndra_shard.png",
+      "layers": [
+        "worldbosses:item/elyndra_shard"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "elyndra_spawn_egg",
+      "name": "Elyndra Spawn Egg",
+      "image": "assets/mod-items/worldbosses/elyndra_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/elyndra_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "elyndra_trophy",
+      "name": "Elyndra Trophy",
+      "image": "assets/mod-items/worldbosses/elyndra_trophy.png",
+      "layers": [
+        "worldbosses:item/elyndra_trophy"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "giant_snail_spawn_egg",
+      "name": "Giant Snail Spawn Egg",
+      "image": "assets/mod-items/worldbosses/giant_snail_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/giant_snail_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "gloomberries",
+      "name": "Gloomberries",
+      "image": "assets/mod-items/worldbosses/gloomberries.png",
+      "layers": [
+        "worldbosses:item/gloomberries"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "gnome_spawn_egg",
+      "name": "Gnome Spawn Egg",
+      "image": "assets/mod-items/worldbosses/gnome_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/gnome_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "goblin_spawn_egg",
+      "name": "Goblin Spawn Egg",
+      "image": "assets/mod-items/worldbosses/goblin_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/goblin_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "griffin_feather",
+      "name": "Griffin Feather",
+      "image": "assets/mod-items/worldbosses/griffin_feather.png",
+      "layers": [
+        "worldbosses:item/griffin_feather"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "griffin_raid_cache",
+      "name": "Griffin Raid Cache",
+      "image": "assets/mod-items/worldbosses/griffin_raid_cache.png",
+      "layers": [
+        "worldbosses:item/griffin_raid_cache"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "heaven_grass",
+      "name": "Heaven Grass",
+      "image": "assets/mod-items/worldbosses/heaven_grass.png",
+      "layers": [
+        "worldbosses:block/heaven_grass"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "infernal_element",
+      "name": "Infernal Element",
+      "image": "assets/mod-items/worldbosses/infernal_element.png",
+      "layers": [
+        "worldbosses:item/infernal_element"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "infernal_raid_cache",
+      "name": "Infernal Raid Cache",
+      "image": "assets/mod-items/worldbosses/infernal_raid_cache.png",
+      "layers": [
+        "worldbosses:item/infernal_raid_cache"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "molten_war_core",
+      "name": "Molten War Core",
+      "image": "assets/mod-items/worldbosses/molten_war_core.png",
+      "layers": [
+        "worldbosses:item/molten_war_core"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "morvath_shard",
+      "name": "Morvath Shard",
+      "image": "assets/mod-items/worldbosses/morvath_shard.png",
+      "layers": [
+        "worldbosses:item/morvath_shard"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "morvath_spawn_egg",
+      "name": "Morvath Spawn Egg",
+      "image": "assets/mod-items/worldbosses/morvath_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/morvath_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "morvath_trophy",
+      "name": "Morvath Trophy",
+      "image": "assets/mod-items/worldbosses/morvath_trophy.png",
+      "layers": [
+        "worldbosses:item/morvath_trophy"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "moss_boar_spawn_egg",
+      "name": "Moss Boar Spawn Egg",
+      "image": "assets/mod-items/worldbosses/moss_boar_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/moss_boar_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "nekhraz_shard",
+      "name": "Nekhraz Shard",
+      "image": "assets/mod-items/worldbosses/nekhraz_shard.png",
+      "layers": [
+        "worldbosses:item/nekhraz_shard"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "nekhraz_spawn_egg",
+      "name": "Nekhraz Spawn Egg",
+      "image": "assets/mod-items/worldbosses/nekhraz_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/nekhraz_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "nekhraz_trophy",
+      "name": "Nekhraz Trophy",
+      "image": "assets/mod-items/worldbosses/nekhraz_trophy.png",
+      "layers": [
+        "worldbosses:item/nekhraz_trophy"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "nightbloom",
+      "name": "Nightbloom",
+      "image": "assets/mod-items/worldbosses/nightbloom.png",
+      "layers": [
+        "worldbosses:block/nightbloom"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "nymph_spawn_egg",
+      "name": "Nymph Spawn Egg",
+      "image": "assets/mod-items/worldbosses/nymph_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/nymph_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "pegasus_spawn_egg",
+      "name": "Pegasus Spawn Egg",
+      "image": "assets/mod-items/worldbosses/pegasus_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/pegasus_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "primordial_core",
+      "name": "Primordial Core",
+      "image": "assets/mod-items/worldbosses/primordial_core.png",
+      "layers": [
+        "worldbosses:item/primordial_core"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "primordial_hammer",
+      "name": "Primordial Hammer",
+      "image": "assets/mod-items/worldbosses/primordial_hammer.png",
+      "layers": [
+        "worldbosses:item/primordial_hammer"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "primordial_keystone",
+      "name": "Primordial Keystone",
+      "image": "assets/mod-items/worldbosses/primordial_keystone.png",
+      "layers": [
+        "worldbosses:item/primordial_keystone"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "primordial_raid_cache",
+      "name": "Primordial Raid Cache",
+      "image": "assets/mod-items/worldbosses/primordial_raid_cache.png",
+      "layers": [
+        "worldbosses:item/primordial_raid_cache"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "primordial_spark",
+      "name": "Primordial Spark",
+      "image": "assets/mod-items/worldbosses/primordial_spark.png",
+      "layers": [
+        "worldbosses:item/primordial_spark"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "primordium_ingot",
+      "name": "Primordium Ingot",
+      "image": "assets/mod-items/worldbosses/primordium_ingot.png",
+      "layers": [
+        "worldbosses:item/primordium_ingot"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "realm_codex",
+      "name": "Realm Codex",
+      "image": "assets/mod-items/worldbosses/realm_codex.png",
+      "layers": [
+        "worldbosses:item/realm_codex"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "realm_compass",
+      "name": "Realm Compass",
+      "image": "assets/mod-items/worldbosses/realm_compass.png",
+      "layers": [
+        "worldbosses:item/realm_compass"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "scarecrow_spawn_egg",
+      "name": "Scarecrow Spawn Egg",
+      "image": "assets/mod-items/worldbosses/scarecrow_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/scarecrow_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "sentinel_heart",
+      "name": "Sentinel Heart",
+      "image": "assets/mod-items/worldbosses/sentinel_heart.png",
+      "layers": [
+        "worldbosses:item/sentinel_heart"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shadebell",
+      "name": "Shadebell",
+      "image": "assets/mod-items/worldbosses/shadebell.png",
+      "layers": [
+        "worldbosses:block/shadebell"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shadow_bolt",
+      "name": "Shadow Bolt",
+      "image": "assets/mod-items/worldbosses/shadow_bolt.png",
+      "layers": [
+        "worldbosses:item/shadow_bolt"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shadow_crown",
+      "name": "Shadow Crown",
+      "image": "assets/mod-items/worldbosses/shadow_crown.png",
+      "layers": [
+        "worldbosses:item/shadow_crown"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shadow_fragment",
+      "name": "Shadow Fragment",
+      "image": "assets/mod-items/worldbosses/shadow_fragment.png",
+      "layers": [
+        "worldbosses:item/shadow_fragment"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shadow_king_spawn_egg",
+      "name": "Shadow King Spawn Egg",
+      "image": "assets/mod-items/worldbosses/shadow_king_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/shadow_king_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shadow_soul_shard",
+      "name": "Shadow Soul Shard",
+      "image": "assets/mod-items/worldbosses/shadow_soul_shard.png",
+      "layers": [
+        "worldbosses:item/shadow_soul_shard"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shadow_viper_spawn_egg",
+      "name": "Shadow Viper Spawn Egg",
+      "image": "assets/mod-items/worldbosses/shadow_viper_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/shadow_viper_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shadow_weaver_spawn_egg",
+      "name": "Shadow Weaver Spawn Egg",
+      "image": "assets/mod-items/worldbosses/shadow_weaver_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/shadow_weaver_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shadowbreaker_alloy",
+      "name": "Shadowbreaker Alloy",
+      "image": "assets/mod-items/worldbosses/shadowbreaker_alloy.png",
+      "layers": [
+        "worldbosses:item/shadowbreaker_alloy"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shadowbreaker_axe_icon",
+      "name": "Shadowbreaker Axe Icon",
+      "image": "assets/mod-items/worldbosses/shadowbreaker_axe_icon.png",
+      "layers": [
+        "worldbosses:item/shadowbreaker_axe"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shadowbreaker_boots",
+      "name": "Shadowbreaker Boots",
+      "image": "assets/mod-items/worldbosses/shadowbreaker_boots.png",
+      "layers": [
+        "worldbosses:item/shadowbreaker_boots"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shadowbreaker_chestplate",
+      "name": "Shadowbreaker Chestplate",
+      "image": "assets/mod-items/worldbosses/shadowbreaker_chestplate.png",
+      "layers": [
+        "worldbosses:item/shadowbreaker_chestplate"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shadowbreaker_helmet",
+      "name": "Shadowbreaker Helmet",
+      "image": "assets/mod-items/worldbosses/shadowbreaker_helmet.png",
+      "layers": [
+        "worldbosses:item/shadowbreaker_helmet"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shadowbreaker_hoe_icon",
+      "name": "Shadowbreaker Hoe Icon",
+      "image": "assets/mod-items/worldbosses/shadowbreaker_hoe_icon.png",
+      "layers": [
+        "worldbosses:item/shadowbreaker_hoe"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shadowbreaker_leggings",
+      "name": "Shadowbreaker Leggings",
+      "image": "assets/mod-items/worldbosses/shadowbreaker_leggings.png",
+      "layers": [
+        "worldbosses:item/shadowbreaker_leggings"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shadowbreaker_pickaxe_icon",
+      "name": "Shadowbreaker Pickaxe Icon",
+      "image": "assets/mod-items/worldbosses/shadowbreaker_pickaxe_icon.png",
+      "layers": [
+        "worldbosses:item/shadowbreaker_pickaxe"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shadowbreaker_shield_icon",
+      "name": "Shadowbreaker Shield Icon",
+      "image": "assets/mod-items/worldbosses/shadowbreaker_shield_icon.png",
+      "layers": [
+        "worldbosses:item/shadowbreaker_shield"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shadowbreaker_shovel_icon",
+      "name": "Shadowbreaker Shovel Icon",
+      "image": "assets/mod-items/worldbosses/shadowbreaker_shovel_icon.png",
+      "layers": [
+        "worldbosses:item/shadowbreaker_shovel"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shadowbreaker_sword_icon",
+      "name": "Shadowbreaker Sword Icon",
+      "image": "assets/mod-items/worldbosses/shadowbreaker_sword_icon.png",
+      "layers": [
+        "worldbosses:item/shadowbreaker_sword"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shadowbreaker_upgrade_template",
+      "name": "Shadowbreaker Upgrade Template",
+      "image": "assets/mod-items/worldbosses/shadowbreaker_upgrade_template.png",
+      "layers": [
+        "worldbosses:item/shadowbreaker_upgrade_template"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shard_sentinel_spawn_egg",
+      "name": "Shard Sentinel Spawn Egg",
+      "image": "assets/mod-items/worldbosses/shard_sentinel_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/shard_sentinel_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shattered_void_crown",
+      "name": "Shattered Void Crown",
+      "image": "assets/mod-items/worldbosses/shattered_void_crown.png",
+      "layers": [
+        "worldbosses:item/shattered_void_crown"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "shrine_locator_compass",
+      "name": "Shrine Locator Compass",
+      "image": "assets/mod-items/worldbosses/shrine_locator_compass.png",
+      "layers": [
+        "worldbosses:item/shrine_locator_compass"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "skeleton_warrior_spawn_egg",
+      "name": "Skeleton Warrior Spawn Egg",
+      "image": "assets/mod-items/worldbosses/skeleton_warrior_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/skeleton_warrior_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "sky_jellyfish_spawn_egg",
+      "name": "Sky Jellyfish Spawn Egg",
+      "image": "assets/mod-items/worldbosses/sky_jellyfish_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/sky_jellyfish_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "sky_sigil",
+      "name": "Sky Sigil",
+      "image": "assets/mod-items/worldbosses/sky_sigil.png",
+      "layers": [
+        "worldbosses:item/sky_sigil"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "snail_shell",
+      "name": "Snail Shell",
+      "image": "assets/mod-items/worldbosses/snail_shell.png",
+      "layers": [
+        "worldbosses:item/snail_shell"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "soul_element",
+      "name": "Soul Element",
+      "image": "assets/mod-items/worldbosses/soul_element.png",
+      "layers": [
+        "worldbosses:item/soul_element"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "soul_raid_cache",
+      "name": "Soul Raid Cache",
+      "image": "assets/mod-items/worldbosses/soul_raid_cache.png",
+      "layers": [
+        "worldbosses:item/soul_raid_cache"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "star_hummingbird_spawn_egg",
+      "name": "Star Hummingbird Spawn Egg",
+      "image": "assets/mod-items/worldbosses/star_hummingbird_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/star_hummingbird_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "storm_element",
+      "name": "Storm Element",
+      "image": "assets/mod-items/worldbosses/storm_element.png",
+      "layers": [
+        "worldbosses:item/storm_element"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "storm_griffin_spawn_egg",
+      "name": "Storm Griffin Spawn Egg",
+      "image": "assets/mod-items/worldbosses/storm_griffin_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/storm_griffin_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "storm_raid_cache",
+      "name": "Storm Raid Cache",
+      "image": "assets/mod-items/worldbosses/storm_raid_cache.png",
+      "layers": [
+        "worldbosses:item/storm_raid_cache"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "storm_sigil",
+      "name": "Storm Sigil",
+      "image": "assets/mod-items/worldbosses/storm_sigil.png",
+      "layers": [
+        "worldbosses:item/storm_sigil"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "storm_soul_shard",
+      "name": "Storm Soul Shard",
+      "image": "assets/mod-items/worldbosses/storm_soul_shard.png",
+      "layers": [
+        "worldbosses:item/storm_soul_shard"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "storm_spirit_spawn_egg",
+      "name": "Storm Spirit Spawn Egg",
+      "image": "assets/mod-items/worldbosses/storm_spirit_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/storm_spirit_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "sunken_scarab",
+      "name": "Sunken Scarab",
+      "image": "assets/mod-items/worldbosses/sunken_scarab.png",
+      "layers": [
+        "worldbosses:item/sunken_scarab"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "sunstar",
+      "name": "Sunstar",
+      "image": "assets/mod-items/worldbosses/sunstar.png",
+      "layers": [
+        "worldbosses:block/sunstar"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "sylvaron_shard",
+      "name": "Sylvaron Shard",
+      "image": "assets/mod-items/worldbosses/sylvaron_shard.png",
+      "layers": [
+        "worldbosses:item/sylvaron_shard"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "sylvaron_spawn_egg",
+      "name": "Sylvaron Spawn Egg",
+      "image": "assets/mod-items/worldbosses/sylvaron_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/sylvaron_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "sylvaron_trophy",
+      "name": "Sylvaron Trophy",
+      "image": "assets/mod-items/worldbosses/sylvaron_trophy.png",
+      "layers": [
+        "worldbosses:item/sylvaron_trophy"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "terranite",
+      "name": "Terranite",
+      "image": "assets/mod-items/worldbosses/terranite.png",
+      "layers": [
+        "worldbosses:item/terranite"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "terranite_dragon_egg",
+      "name": "Terranite Dragon Egg",
+      "image": "assets/mod-items/worldbosses/terranite_dragon_egg.png",
+      "layers": [
+        "worldbosses:item/terranite_dragon_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "thorn",
+      "name": "Thorn",
+      "image": "assets/mod-items/worldbosses/thorn.png",
+      "layers": [
+        "worldbosses:item/thorn"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "thorn_vine_spawn_egg",
+      "name": "Thorn Vine Spawn Egg",
+      "image": "assets/mod-items/worldbosses/thorn_vine_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/thorn_vine_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "umbral_raid_cache",
+      "name": "Umbral Raid Cache",
+      "image": "assets/mod-items/worldbosses/umbral_raid_cache.png",
+      "layers": [
+        "worldbosses:item/umbral_raid_cache"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "umbral_sigil",
+      "name": "Umbral Sigil",
+      "image": "assets/mod-items/worldbosses/umbral_sigil.png",
+      "layers": [
+        "worldbosses:item/umbral_sigil"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "umbrite",
+      "name": "Umbrite",
+      "image": "assets/mod-items/worldbosses/umbrite.png",
+      "layers": [
+        "worldbosses:item/umbrite"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "varkhul_shard",
+      "name": "Varkhul Shard",
+      "image": "assets/mod-items/worldbosses/varkhul_shard.png",
+      "layers": [
+        "worldbosses:item/varkhul_shard"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "varkhul_spawn_egg",
+      "name": "Varkhul Spawn Egg",
+      "image": "assets/mod-items/worldbosses/varkhul_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/varkhul_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "varkhul_trophy",
+      "name": "Varkhul Trophy",
+      "image": "assets/mod-items/worldbosses/varkhul_trophy.png",
+      "layers": [
+        "worldbosses:item/varkhul_trophy"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "verdant_element",
+      "name": "Verdant Element",
+      "image": "assets/mod-items/worldbosses/verdant_element.png",
+      "layers": [
+        "worldbosses:item/verdant_element"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "verdant_heart",
+      "name": "Verdant Heart",
+      "image": "assets/mod-items/worldbosses/verdant_heart.png",
+      "layers": [
+        "worldbosses:item/verdant_heart"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "verdant_raid_cache",
+      "name": "Verdant Raid Cache",
+      "image": "assets/mod-items/worldbosses/verdant_raid_cache.png",
+      "layers": [
+        "worldbosses:item/verdant_raid_cache"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "void_element",
+      "name": "Void Element",
+      "image": "assets/mod-items/worldbosses/void_element.png",
+      "layers": [
+        "worldbosses:item/void_element"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "void_raid_cache",
+      "name": "Void Raid Cache",
+      "image": "assets/mod-items/worldbosses/void_raid_cache.png",
+      "layers": [
+        "worldbosses:item/void_raid_cache"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "void_sigil",
+      "name": "Void Sigil",
+      "image": "assets/mod-items/worldbosses/void_sigil.png",
+      "layers": [
+        "worldbosses:item/void_sigil"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "weaver_raid_cache",
+      "name": "Weaver Raid Cache",
+      "image": "assets/mod-items/worldbosses/weaver_raid_cache.png",
+      "layers": [
+        "worldbosses:item/weaver_raid_cache"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "weaver_spindle",
+      "name": "Weaver's Spindle",
+      "image": "assets/mod-items/worldbosses/weaver_spindle.png",
+      "layers": [
+        "worldbosses:item/weaver_spindle"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "wolpertinger_spawn_egg",
+      "name": "Wolpertinger Spawn Egg",
+      "image": "assets/mod-items/worldbosses/wolpertinger_spawn_egg.png",
+      "layers": [
+        "worldbosses:item/wolpertinger_spawn_egg"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "worldbreaker_alloy",
+      "name": "Worldbreaker Alloy",
+      "image": "assets/mod-items/worldbosses/worldbreaker_alloy.png",
+      "layers": [
+        "worldbosses:item/worldbreaker_alloy"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "worldbreaker_axe_icon",
+      "name": "Worldbreaker Axe Icon",
+      "image": "assets/mod-items/worldbosses/worldbreaker_axe_icon.png",
+      "layers": [
+        "worldbosses:item/worldbreaker_axe"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "worldbreaker_boots",
+      "name": "Worldbreaker Boots",
+      "image": "assets/mod-items/worldbosses/worldbreaker_boots.png",
+      "layers": [
+        "worldbosses:item/worldbreaker_boots"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "worldbreaker_chestplate",
+      "name": "Worldbreaker Chestplate",
+      "image": "assets/mod-items/worldbosses/worldbreaker_chestplate.png",
+      "layers": [
+        "worldbosses:item/worldbreaker_chestplate"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "worldbreaker_dust",
+      "name": "Worldbreaker Dust",
+      "image": "assets/mod-items/worldbosses/worldbreaker_dust.png",
+      "layers": [
+        "worldbosses:item/worldbreaker_dust"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "worldbreaker_fragment",
+      "name": "Worldbreaker Fragment",
+      "image": "assets/mod-items/worldbosses/worldbreaker_fragment.png",
+      "layers": [
+        "worldbosses:item/worldbreaker_fragment"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "worldbreaker_helmet",
+      "name": "Worldbreaker Helmet",
+      "image": "assets/mod-items/worldbosses/worldbreaker_helmet.png",
+      "layers": [
+        "worldbosses:item/worldbreaker_helmet"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "worldbreaker_hoe_icon",
+      "name": "Worldbreaker Hoe Icon",
+      "image": "assets/mod-items/worldbosses/worldbreaker_hoe_icon.png",
+      "layers": [
+        "worldbosses:item/worldbreaker_hoe"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "worldbreaker_igniter",
+      "name": "Worldbreaker Igniter",
+      "image": "assets/mod-items/worldbosses/worldbreaker_igniter.png",
+      "layers": [
+        "worldbosses:item/worldbreaker_igniter"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "worldbreaker_leggings",
+      "name": "Worldbreaker Leggings",
+      "image": "assets/mod-items/worldbosses/worldbreaker_leggings.png",
+      "layers": [
+        "worldbosses:item/worldbreaker_leggings"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "worldbreaker_pickaxe_icon",
+      "name": "Worldbreaker Pickaxe Icon",
+      "image": "assets/mod-items/worldbosses/worldbreaker_pickaxe_icon.png",
+      "layers": [
+        "worldbosses:item/worldbreaker_pickaxe"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "worldbreaker_shield_icon",
+      "name": "Worldbreaker Shield Icon",
+      "image": "assets/mod-items/worldbosses/worldbreaker_shield_icon.png",
+      "layers": [
+        "worldbosses:item/worldbreaker_shield"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "worldbreaker_shovel_icon",
+      "name": "Worldbreaker Shovel Icon",
+      "image": "assets/mod-items/worldbosses/worldbreaker_shovel_icon.png",
+      "layers": [
+        "worldbosses:item/worldbreaker_shovel"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "worldbreaker_sword_icon",
+      "name": "Worldbreaker Sword Icon",
+      "image": "assets/mod-items/worldbosses/worldbreaker_sword_icon.png",
+      "layers": [
+        "worldbosses:item/worldbreaker_sword"
+      ]
+    },
+    {
+      "namespace": "worldbosses",
+      "model": "worldbreaker_upgrade_template",
+      "name": "Worldbreaker Upgrade Template",
+      "image": "assets/mod-items/worldbosses/worldbreaker_upgrade_template.png",
+      "layers": [
+        "worldbosses:item/worldbreaker_upgrade_template"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "aeridium",
+      "name": "Aeridium",
+      "image": "assets/mod-items/betterend/aeridium.png",
+      "layers": [
+        "betterend:block/aeridium"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "aeternium_upgrade_smithing_template",
+      "name": "Aeternium Upgrade Smithing Template",
+      "image": "assets/mod-items/betterend/aeternium_upgrade_smithing_template.png",
+      "layers": [
+        "betterend:item/aeternium_upgrade_smithing_template"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "amaranita_fur",
+      "name": "Amaranita Fur",
+      "image": "assets/mod-items/betterend/amaranita_fur.png",
+      "layers": [
+        "betterend:block/amaranita_fur"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "amber_gem",
+      "name": "Amber Gem",
+      "image": "assets/mod-items/betterend/amber_gem.png",
+      "layers": [
+        "betterend:item/amber_gem"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "amber_grass",
+      "name": "Amber Grass",
+      "image": "assets/mod-items/betterend/amber_grass.png",
+      "layers": [
+        "betterend:block/amber_grass"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "amber_root_seed",
+      "name": "Amber Root Seed",
+      "image": "assets/mod-items/betterend/amber_root_seed.png",
+      "layers": [
+        "betterend:item/amber_root_seed"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "aurant_polypore",
+      "name": "Aurant Polypore",
+      "image": "assets/mod-items/betterend/aurant_polypore.png",
+      "layers": [
+        "betterend:item/aurant_polypore"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "blooming_cooksonia",
+      "name": "Blooming Cooksonia",
+      "image": "assets/mod-items/betterend/blooming_cooksonia.png",
+      "layers": [
+        "betterend:block/blooming_cooksonia"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "blossom_berry",
+      "name": "Blossom Berry",
+      "image": "assets/mod-items/betterend/blossom_berry.png",
+      "layers": [
+        "betterend:item/blossom_berry"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "blossom_berry_seed",
+      "name": "Blossom Berry Seed",
+      "image": "assets/mod-items/betterend/blossom_berry_seed.png",
+      "layers": [
+        "betterend:item/blossom_berry_seed"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "blue_vine_fur",
+      "name": "Blue Vine Fur",
+      "image": "assets/mod-items/betterend/blue_vine_fur.png",
+      "layers": [
+        "betterend:block/blue_vine_fur"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "blue_vine_seed",
+      "name": "Blue Vine Seed",
+      "image": "assets/mod-items/betterend/blue_vine_seed.png",
+      "layers": [
+        "betterend:item/blue_vine_seed"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "bolux_mushroom",
+      "name": "Bolux Mushroom",
+      "image": "assets/mod-items/betterend/bolux_mushroom.png",
+      "layers": [
+        "betterend:item/bolux_mushroom"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "bucket_end_fish",
+      "name": "Bucket of End Fish",
+      "image": "assets/mod-items/betterend/bucket_end_fish.png",
+      "layers": [
+        "betterend:item/bucket_end_fish"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "bulb_moss",
+      "name": "Bulb Moss",
+      "image": "assets/mod-items/betterend/bulb_moss.png",
+      "layers": [
+        "betterend:block/bulb_moss_leaves"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "bulb_vine",
+      "name": "Bulb Vine",
+      "image": "assets/mod-items/betterend/bulb_vine.png",
+      "layers": [
+        "betterend:block/bulb_vine_middle"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "bulb_vine_seed",
+      "name": "Bulb Vine Seed",
+      "image": "assets/mod-items/betterend/bulb_vine_seed.png",
+      "layers": [
+        "betterend:item/bulb_vine_seed"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "bushy_grass",
+      "name": "Bushy Grass",
+      "image": "assets/mod-items/betterend/bushy_grass.png",
+      "layers": [
+        "betterend:block/bushy_grass_2"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "cave_grass",
+      "name": "Cave Grass",
+      "image": "assets/mod-items/betterend/cave_grass.png",
+      "layers": [
+        "betterend:block/cave_grass_1"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "cave_pumpkin_seed",
+      "name": "Cave Pumpkin Seed",
+      "image": "assets/mod-items/betterend/cave_pumpkin_seed.png",
+      "layers": [
+        "betterend:item/cave_pumpkin_seed"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "charnia_cyan",
+      "name": "Charnia Cyan",
+      "image": "assets/mod-items/betterend/charnia_cyan.png",
+      "layers": [
+        "betterend:item/charnia_cyan"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "charnia_green",
+      "name": "Charnia Green",
+      "image": "assets/mod-items/betterend/charnia_green.png",
+      "layers": [
+        "betterend:item/charnia_green"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "charnia_light_blue",
+      "name": "Charnia Light Blue",
+      "image": "assets/mod-items/betterend/charnia_light_blue.png",
+      "layers": [
+        "betterend:item/charnia_light_blue"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "charnia_orange",
+      "name": "Charnia Orange",
+      "image": "assets/mod-items/betterend/charnia_orange.png",
+      "layers": [
+        "betterend:item/charnia_orange"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "charnia_purple",
+      "name": "Charnia Purple",
+      "image": "assets/mod-items/betterend/charnia_purple.png",
+      "layers": [
+        "betterend:item/charnia_purple"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "charnia_red",
+      "name": "Charnia Red",
+      "image": "assets/mod-items/betterend/charnia_red.png",
+      "layers": [
+        "betterend:item/charnia_red"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "chorus_grass",
+      "name": "Chorus Grass",
+      "image": "assets/mod-items/betterend/chorus_grass.png",
+      "layers": [
+        "betterend:block/chorus_grass_01"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "chorus_mushroom_seed",
+      "name": "Chorus Mushroom Seed",
+      "image": "assets/mod-items/betterend/chorus_mushroom_seed.png",
+      "layers": [
+        "betterend:item/chorus_mushroom_seed"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "clawfern",
+      "name": "Clawfern",
+      "image": "assets/mod-items/betterend/clawfern.png",
+      "layers": [
+        "betterend:block/clawfern"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "creeping_moss",
+      "name": "Creeping Moss",
+      "image": "assets/mod-items/betterend/creeping_moss.png",
+      "layers": [
+        "betterend:item/creeping_moss"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "crystal_grass",
+      "name": "Crystal Grass",
+      "image": "assets/mod-items/betterend/crystal_grass.png",
+      "layers": [
+        "betterend:block/crystal_grass_5"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "crystal_moss_cover",
+      "name": "Crystal Moss Cover",
+      "image": "assets/mod-items/betterend/crystal_moss_cover.png",
+      "layers": [
+        "betterend:block/crystal_moss_cover"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "crystal_shards",
+      "name": "Aurora Crystal Shards",
+      "image": "assets/mod-items/betterend/crystal_shards.png",
+      "layers": [
+        "betterend:item/crystal_shards"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "crystalline_sulphur",
+      "name": "Sulfur",
+      "image": "assets/mod-items/betterend/crystalline_sulphur.png",
+      "layers": [
+        "betterend:item/crystalline_sulphur"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "cyan_moss",
+      "name": "Cyan Moss",
+      "image": "assets/mod-items/betterend/cyan_moss.png",
+      "layers": [
+        "betterend:block/cyan_moss"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "dense_vine",
+      "name": "Dense Vine",
+      "image": "assets/mod-items/betterend/dense_vine.png",
+      "layers": [
+        "betterend:block/dense_vine_bottom"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "diamond_hammer",
+      "name": "Diamond Smith Hammer",
+      "image": "assets/mod-items/betterend/diamond_hammer.png",
+      "layers": [
+        "betterend:item/diamond_hammer"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "dragon_tree_hanging_sign",
+      "name": "Dragon Tree Hanging Sign",
+      "image": "assets/mod-items/betterend/dragon_tree_hanging_sign.png",
+      "layers": [
+        "betterend:item/dragon_tree_hanging_sign"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "elytra_armored",
+      "name": "Armored Elytra",
+      "image": "assets/mod-items/betterend/elytra_armored.png",
+      "layers": [
+        "betterend:item/elytra_armored"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "elytra_armored_broken",
+      "name": "Elytra Armored Broken",
+      "image": "assets/mod-items/betterend/elytra_armored_broken.png",
+      "layers": [
+        "betterend:item/elytra_armored_broken"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "end_fish_cooked",
+      "name": "Cooked End Fish",
+      "image": "assets/mod-items/betterend/end_fish_cooked.png",
+      "layers": [
+        "betterend:item/end_fish_cooked"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "end_fish_raw",
+      "name": "End Fish",
+      "image": "assets/mod-items/betterend/end_fish_raw.png",
+      "layers": [
+        "betterend:item/end_fish"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "end_lily_leaf",
+      "name": "End Lily Leaf",
+      "image": "assets/mod-items/betterend/end_lily_leaf.png",
+      "layers": [
+        "betterend:block/end_lily_leaf_small"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "end_lily_leaf_dried",
+      "name": "End Lily Leaf Dried",
+      "image": "assets/mod-items/betterend/end_lily_leaf_dried.png",
+      "layers": [
+        "betterend:item/end_lily_leaf_dried"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "end_lily_seed",
+      "name": "End Lily Seed",
+      "image": "assets/mod-items/betterend/end_lily_seed.png",
+      "layers": [
+        "betterend:item/end_lily_seed"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "end_lotus_hanging_sign",
+      "name": "End Lotus Hanging Sign",
+      "image": "assets/mod-items/betterend/end_lotus_hanging_sign.png",
+      "layers": [
+        "betterend:item/end_lotus_hanging_sign"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "end_lotus_seed",
+      "name": "End Lotus Seed",
+      "image": "assets/mod-items/betterend/end_lotus_seed.png",
+      "layers": [
+        "betterend:item/end_lotus_seed"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "end_portal_block",
+      "name": "End Portal Block",
+      "image": "assets/mod-items/betterend/end_portal_block.png",
+      "layers": [
+        "betterend:block/end_portal"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "end_stone_stalactite",
+      "name": "End Stone Stalactite",
+      "image": "assets/mod-items/betterend/end_stone_stalactite.png",
+      "layers": [
+        "betterend:item/end_stone_stalactite"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "end_stone_stalactite_cavemoss",
+      "name": "End Stone Stalactite Cavemoss",
+      "image": "assets/mod-items/betterend/end_stone_stalactite_cavemoss.png",
+      "layers": [
+        "betterend:item/end_stone_stalactite_cavemoss"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "ender_dust",
+      "name": "Ender Dust",
+      "image": "assets/mod-items/betterend/ender_dust.png",
+      "layers": [
+        "betterend:item/ender_dust"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "filalux",
+      "name": "Filalux",
+      "image": "assets/mod-items/betterend/filalux.png",
+      "layers": [
+        "betterend:block/filalux_bottom"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "filalux_wings",
+      "name": "Filalux Wings",
+      "image": "assets/mod-items/betterend/filalux_wings.png",
+      "layers": [
+        "betterend:item/filalux_wings"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "flamaea",
+      "name": "Flamaea",
+      "image": "assets/mod-items/betterend/flamaea.png",
+      "layers": [
+        "betterend:block/flamaea_1"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "fracturn",
+      "name": "Fracturn",
+      "image": "assets/mod-items/betterend/fracturn.png",
+      "layers": [
+        "betterend:block/fracturn"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "globulagus",
+      "name": "Globulagus",
+      "image": "assets/mod-items/betterend/globulagus.png",
+      "layers": [
+        "betterend:block/globulagus"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "glowing_bulb",
+      "name": "Glowing Bulb",
+      "image": "assets/mod-items/betterend/glowing_bulb.png",
+      "layers": [
+        "betterend:item/glowing_bulb"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "glowing_pillar_leaves",
+      "name": "Glowing Pillar Leaves",
+      "image": "assets/mod-items/betterend/glowing_pillar_leaves.png",
+      "layers": [
+        "betterend:block/glowing_pillar_leaves"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "glowing_pillar_seed",
+      "name": "Glowing Pillar Seed",
+      "image": "assets/mod-items/betterend/glowing_pillar_seed.png",
+      "layers": [
+        "betterend:item/glowing_pillar_seed"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "golden_hammer",
+      "name": "Golden Smith Hammer",
+      "image": "assets/mod-items/betterend/golden_hammer.png",
+      "layers": [
+        "betterend:item/golden_hammer"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "guidebook",
+      "name": "The End for Dummies",
+      "image": "assets/mod-items/betterend/guidebook.png",
+      "layers": [
+        "betterend:item/guidebook"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "handle_attachment_smithing_template",
+      "name": "Handle Attachment Smithing Template",
+      "image": "assets/mod-items/betterend/handle_attachment_smithing_template.png",
+      "layers": [
+        "betterend:item/handle_attachment_smithing_template"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "helix_tree_hanging_sign",
+      "name": "Helix Tree Hanging Sign",
+      "image": "assets/mod-items/betterend/helix_tree_hanging_sign.png",
+      "layers": [
+        "betterend:item/helix_tree_hanging_sign"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "hydralux_sapling",
+      "name": "Hydralux Sapling",
+      "image": "assets/mod-items/betterend/hydralux_sapling.png",
+      "layers": [
+        "betterend:item/hydralux_spore"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "iron_hammer",
+      "name": "Iron Smith Hammer",
+      "image": "assets/mod-items/betterend/iron_hammer.png",
+      "layers": [
+        "betterend:item/iron_hammer"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "ivis_moss",
+      "name": "Ivis Moss",
+      "image": "assets/mod-items/betterend/ivis_moss.png",
+      "layers": [
+        "betterend:block/ivis_moss"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "ivis_vine",
+      "name": "Ivis Vine",
+      "image": "assets/mod-items/betterend/ivis_vine.png",
+      "layers": [
+        "betterend:block/ivis_vine_bottom"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "jellyshroom_hanging_sign",
+      "name": "Jellyshroom Hanging Sign",
+      "image": "assets/mod-items/betterend/jellyshroom_hanging_sign.png",
+      "layers": [
+        "betterend:item/jellyshroom_hanging_sign"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "jungle_fern",
+      "name": "Jungle Fern",
+      "image": "assets/mod-items/betterend/jungle_fern.png",
+      "layers": [
+        "betterend:item/jungle_fern"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "jungle_grass",
+      "name": "Jungle Grass",
+      "image": "assets/mod-items/betterend/jungle_grass.png",
+      "layers": [
+        "betterend:block/jungle_grass"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "jungle_vine",
+      "name": "Jungle Vine",
+      "image": "assets/mod-items/betterend/jungle_vine.png",
+      "layers": [
+        "betterend:block/jungle_vine_bottom"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "lacugrove_hanging_sign",
+      "name": "Lacugrove Hanging Sign",
+      "image": "assets/mod-items/betterend/lacugrove_hanging_sign.png",
+      "layers": [
+        "betterend:item/lacugrove_hanging_sign"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "lamellarium",
+      "name": "Lamellarium",
+      "image": "assets/mod-items/betterend/lamellarium.png",
+      "layers": [
+        "betterend:block/lamellarium"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "lanceleaf_seed",
+      "name": "Lanceleaf Seed",
+      "image": "assets/mod-items/betterend/lanceleaf_seed.png",
+      "layers": [
+        "betterend:item/lanceleaf_seed"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "leather_handle_attachment_smithing_template",
+      "name": "Leather Handle Attachment Smithing Template",
+      "image": "assets/mod-items/betterend/leather_handle_attachment_smithing_template.png",
+      "layers": [
+        "betterend:item/leather_handle_attachment_smithing_template"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "lucernia_hanging_sign",
+      "name": "Lucernia Hanging Sign",
+      "image": "assets/mod-items/betterend/lucernia_hanging_sign.png",
+      "layers": [
+        "betterend:item/lucernia_hanging_sign"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "lucernia_jellyshroom_hanging_sign",
+      "name": "Lucernia Jellyshroom Hanging Sign",
+      "image": "assets/mod-items/betterend/lucernia_jellyshroom_hanging_sign.png",
+      "layers": [
+        "betterend:item/lucernia_jellyshroom_hanging_sign"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "lucernia_outer_leaves",
+      "name": "Lucernia Outer Leaves",
+      "image": "assets/mod-items/betterend/lucernia_outer_leaves.png",
+      "layers": [
+        "betterend:block/lucernia_outer_leaves_2"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "lumecorn_seed",
+      "name": "Lumecorn Seed",
+      "image": "assets/mod-items/betterend/lumecorn_seed.png",
+      "layers": [
+        "betterend:item/lumecorn_seed"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "lutebus",
+      "name": "Lutebus",
+      "image": "assets/mod-items/betterend/lutebus.png",
+      "layers": [
+        "betterend:block/lutebus"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "magnula",
+      "name": "Magnula",
+      "image": "assets/mod-items/betterend/magnula.png",
+      "layers": [
+        "betterend:block/magnula_bottom"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "mossy_glowshroom_fur",
+      "name": "Mossy Glowshroom Fur",
+      "image": "assets/mod-items/betterend/mossy_glowshroom_fur.png",
+      "layers": [
+        "betterend:block/mossy_glowshroom_fur"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "mossy_glowshroom_hanging_sign",
+      "name": "Mossy Glowshroom Hanging Sign",
+      "image": "assets/mod-items/betterend/mossy_glowshroom_hanging_sign.png",
+      "layers": [
+        "betterend:item/mossy_glowshroom_hanging_sign"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "murkweed",
+      "name": "Murkweed",
+      "image": "assets/mod-items/betterend/murkweed.png",
+      "layers": [
+        "betterend:item/murkweed"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "needlegrass",
+      "name": "Needlegrass",
+      "image": "assets/mod-items/betterend/needlegrass.png",
+      "layers": [
+        "betterend:block/needlegrass_01"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "netherite_hammer",
+      "name": "Netherite Smith Hammer",
+      "image": "assets/mod-items/betterend/netherite_hammer.png",
+      "layers": [
+        "betterend:item/netherite_hammer"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "netherite_upgrade_smithing_template",
+      "name": "Netherite Upgrade Smithing Template",
+      "image": "assets/mod-items/betterend/netherite_upgrade_smithing_template.png",
+      "layers": [
+        "betterend:item/netherite_upgrade_smithing_template"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "nightshade_moss",
+      "name": "Nightshade Moss",
+      "image": "assets/mod-items/betterend/nightshade_moss.png",
+      "layers": [
+        "betterend:block/nightshade_moss"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "orango",
+      "name": "Orango",
+      "image": "assets/mod-items/betterend/orango.png",
+      "layers": [
+        "betterend:block/orango"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "plate_upgrade_smithing_template",
+      "name": "Plate Upgrade Smithing Template",
+      "image": "assets/mod-items/betterend/plate_upgrade_smithing_template.png",
+      "layers": [
+        "betterend:item/plate_upgrade_smithing_template"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "pond_anemone",
+      "name": "Pond Anemone",
+      "image": "assets/mod-items/betterend/pond_anemone.png",
+      "layers": [
+        "betterend:item/pond_anemone"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "purple_polypore",
+      "name": "Purple Polypore",
+      "image": "assets/mod-items/betterend/purple_polypore.png",
+      "layers": [
+        "betterend:item/purple_polypore"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "pythadendron_hanging_sign",
+      "name": "Pythadendron Hanging Sign",
+      "image": "assets/mod-items/betterend/pythadendron_hanging_sign.png",
+      "layers": [
+        "betterend:item/pythadendron_hanging_sign"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "raw_amber",
+      "name": "Raw Amber",
+      "image": "assets/mod-items/betterend/raw_amber.png",
+      "layers": [
+        "betterend:item/raw_amber"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "respawn_obelisk",
+      "name": "Respawn Obelisk",
+      "image": "assets/mod-items/betterend/respawn_obelisk.png",
+      "layers": [
+        "betterend:item/respawn_obelisk"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "rubinea",
+      "name": "Rubinea",
+      "image": "assets/mod-items/betterend/rubinea.png",
+      "layers": [
+        "betterend:block/rubinea_bottom"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "ruscus",
+      "name": "Ruscus",
+      "image": "assets/mod-items/betterend/ruscus.png",
+      "layers": [
+        "betterend:block/ruscus"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "salteago",
+      "name": "Salteago",
+      "image": "assets/mod-items/betterend/salteago.png",
+      "layers": [
+        "betterend:block/salteago"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "shadow_berry",
+      "name": "Shadow Berry",
+      "image": "assets/mod-items/betterend/shadow_berry.png",
+      "layers": [
+        "betterend:item/shadow_berry_seeds"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "shadow_berry_cooked",
+      "name": "Shadow Berry Cooked",
+      "image": "assets/mod-items/betterend/shadow_berry_cooked.png",
+      "layers": [
+        "betterend:item/shadow_berry_cooked"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "shadow_berry_raw",
+      "name": "Shadow Berry",
+      "image": "assets/mod-items/betterend/shadow_berry_raw.png",
+      "layers": [
+        "betterend:item/shadow_berry"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "shadow_plant",
+      "name": "Shadow Plant",
+      "image": "assets/mod-items/betterend/shadow_plant.png",
+      "layers": [
+        "betterend:block/shadow_plant"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "small_amaranita_mushroom",
+      "name": "Small Amaranita Mushroom",
+      "image": "assets/mod-items/betterend/small_amaranita_mushroom.png",
+      "layers": [
+        "betterend:item/small_amaranita_mushroom"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "small_jellyshroom",
+      "name": "Small Jellyshroom",
+      "image": "assets/mod-items/betterend/small_jellyshroom.png",
+      "layers": [
+        "betterend:item/small_jellyshroom"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "smaragdant_crystal_shard",
+      "name": "Smaragdant Crystal Shard",
+      "image": "assets/mod-items/betterend/smaragdant_crystal_shard.png",
+      "layers": [
+        "betterend:block/smaragdant_crystal_shard"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "sulphur_crystal",
+      "name": "Sulphur Crystal",
+      "image": "assets/mod-items/betterend/sulphur_crystal.png",
+      "layers": [
+        "betterend:block/sulphur_crystal_2"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "tail_moss",
+      "name": "Tail Moss",
+      "image": "assets/mod-items/betterend/tail_moss.png",
+      "layers": [
+        "betterend:block/tail_moss"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "tenanea_flowers",
+      "name": "Tenanea Flowers",
+      "image": "assets/mod-items/betterend/tenanea_flowers.png",
+      "layers": [
+        "betterend:item/tenanea_flowers"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "tenanea_hanging_sign",
+      "name": "Tenanea Hanging Sign",
+      "image": "assets/mod-items/betterend/tenanea_hanging_sign.png",
+      "layers": [
+        "betterend:item/tenanea_hanging_sign"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "tenanea_outer_leaves",
+      "name": "Tenanea Outer Leaves",
+      "image": "assets/mod-items/betterend/tenanea_outer_leaves.png",
+      "layers": [
+        "betterend:block/tenanea_outer_leaves"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "terminite_upgrade_smithing_template",
+      "name": "Terminite Upgrade Smithing Template",
+      "image": "assets/mod-items/betterend/terminite_upgrade_smithing_template.png",
+      "layers": [
+        "betterend:item/terminite_upgrade_smithing_template"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "thallasium_upgrade_smithing_template",
+      "name": "Thallasium Upgrade Smithing Template",
+      "image": "assets/mod-items/betterend/thallasium_upgrade_smithing_template.png",
+      "layers": [
+        "betterend:item/thallasium_upgrade_smithing_template"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "tool_assembly_smithing_template",
+      "name": "Tool Assembly Smithing Template",
+      "image": "assets/mod-items/betterend/tool_assembly_smithing_template.png",
+      "layers": [
+        "betterend:item/tool_assembly_smithing_template"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "tube_worm",
+      "name": "Tube Worm",
+      "image": "assets/mod-items/betterend/tube_worm.png",
+      "layers": [
+        "betterend:item/tube_worm"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "twisted_moss",
+      "name": "Twisted Moss",
+      "image": "assets/mod-items/betterend/twisted_moss.png",
+      "layers": [
+        "betterend:block/twisted_moss"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "twisted_umbrella_moss",
+      "name": "Twisted Umbrella Moss",
+      "image": "assets/mod-items/betterend/twisted_umbrella_moss.png",
+      "layers": [
+        "betterend:item/twisted_umbrella_moss_small"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "twisted_umbrella_moss_tall",
+      "name": "Twisted Umbrella Moss Tall",
+      "image": "assets/mod-items/betterend/twisted_umbrella_moss_tall.png",
+      "layers": [
+        "betterend:item/twisted_umbrella_moss_large"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "twisted_vine",
+      "name": "Twisted Vine",
+      "image": "assets/mod-items/betterend/twisted_vine.png",
+      "layers": [
+        "betterend:block/twisted_vine_bottom"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "umbrella_moss",
+      "name": "Umbrella Moss",
+      "image": "assets/mod-items/betterend/umbrella_moss.png",
+      "layers": [
+        "betterend:item/umbrella_moss_small"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "umbrella_moss_tall",
+      "name": "Umbrella Moss Tall",
+      "image": "assets/mod-items/betterend/umbrella_moss_tall.png",
+      "layers": [
+        "betterend:item/umbrella_moss_large"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "umbrella_tree_hanging_sign",
+      "name": "Umbrella Tree Hanging Sign",
+      "image": "assets/mod-items/betterend/umbrella_tree_hanging_sign.png",
+      "layers": [
+        "betterend:item/umbrella_tree_hanging_sign"
+      ]
+    },
+    {
+      "namespace": "betterend",
+      "model": "vaiolush_fern",
+      "name": "Vaiolush Fern",
+      "image": "assets/mod-items/betterend/vaiolush_fern.png",
+      "layers": [
+        "betterend:block/vaiolush_fern"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "backpack_tank",
+      "name": "Backpack Tank",
+      "image": "assets/mod-items/travelersbackpack/backpack_tank.png",
+      "layers": [
+        "travelersbackpack:item/backpack_tank"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "black_sleeping_bag",
+      "name": "Black Sleeping Bag",
+      "image": "assets/mod-items/travelersbackpack/black_sleeping_bag.png",
+      "layers": [
+        "travelersbackpack:item/black_sleeping_bag"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "blank_upgrade",
+      "name": "Blank Upgrade",
+      "image": "assets/mod-items/travelersbackpack/blank_upgrade.png",
+      "layers": [
+        "travelersbackpack:item/blank_upgrade"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "blast_furnace_upgrade",
+      "name": "Blast Furnace Upgrade",
+      "image": "assets/mod-items/travelersbackpack/blast_furnace_upgrade.png",
+      "layers": [
+        "travelersbackpack:item/blast_furnace_upgrade"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "blue_sleeping_bag",
+      "name": "Blue Sleeping Bag",
+      "image": "assets/mod-items/travelersbackpack/blue_sleeping_bag.png",
+      "layers": [
+        "travelersbackpack:item/blue_sleeping_bag"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "brown_sleeping_bag",
+      "name": "Brown Sleeping Bag",
+      "image": "assets/mod-items/travelersbackpack/brown_sleeping_bag.png",
+      "layers": [
+        "travelersbackpack:item/brown_sleeping_bag"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "crafting_upgrade",
+      "name": "Crafting Upgrade",
+      "image": "assets/mod-items/travelersbackpack/crafting_upgrade.png",
+      "layers": [
+        "travelersbackpack:item/crafting_upgrade"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "cyan_sleeping_bag",
+      "name": "Cyan Sleeping Bag",
+      "image": "assets/mod-items/travelersbackpack/cyan_sleeping_bag.png",
+      "layers": [
+        "travelersbackpack:item/cyan_sleeping_bag"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "diamond_tier_upgrade",
+      "name": "\u00a7bDiamond Tier Upgrade",
+      "image": "assets/mod-items/travelersbackpack/diamond_tier_upgrade.png",
+      "layers": [
+        "travelersbackpack:item/diamond_tier_upgrade"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "feeding_upgrade",
+      "name": "Feeding Upgrade",
+      "image": "assets/mod-items/travelersbackpack/feeding_upgrade.png",
+      "layers": [
+        "travelersbackpack:item/feeding_upgrade"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "furnace_upgrade",
+      "name": "Furnace Upgrade",
+      "image": "assets/mod-items/travelersbackpack/furnace_upgrade.png",
+      "layers": [
+        "travelersbackpack:item/furnace_upgrade"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "gold_tier_upgrade",
+      "name": "\u00a76Gold Tier Upgrade",
+      "image": "assets/mod-items/travelersbackpack/gold_tier_upgrade.png",
+      "layers": [
+        "travelersbackpack:item/gold_tier_upgrade"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "gray_sleeping_bag",
+      "name": "Gray Sleeping Bag",
+      "image": "assets/mod-items/travelersbackpack/gray_sleeping_bag.png",
+      "layers": [
+        "travelersbackpack:item/gray_sleeping_bag"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "green_sleeping_bag",
+      "name": "Green Sleeping Bag",
+      "image": "assets/mod-items/travelersbackpack/green_sleeping_bag.png",
+      "layers": [
+        "travelersbackpack:item/green_sleeping_bag"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "hose",
+      "name": "Hose",
+      "image": "assets/mod-items/travelersbackpack/hose.png",
+      "layers": [
+        "travelersbackpack:item/hose_suck"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "hose_drink",
+      "name": "Hose Drink",
+      "image": "assets/mod-items/travelersbackpack/hose_drink.png",
+      "layers": [
+        "travelersbackpack:item/hose_drink"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "hose_nozzle",
+      "name": "Hose Nozzle",
+      "image": "assets/mod-items/travelersbackpack/hose_nozzle.png",
+      "layers": [
+        "travelersbackpack:item/hose_nozzle"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "hose_spill",
+      "name": "Hose Spill",
+      "image": "assets/mod-items/travelersbackpack/hose_spill.png",
+      "layers": [
+        "travelersbackpack:item/hose_spill"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "hose_suck",
+      "name": "Hose Suck",
+      "image": "assets/mod-items/travelersbackpack/hose_suck.png",
+      "layers": [
+        "travelersbackpack:item/hose_suck"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "iron_tier_upgrade",
+      "name": "\u00a77Iron Tier Upgrade",
+      "image": "assets/mod-items/travelersbackpack/iron_tier_upgrade.png",
+      "layers": [
+        "travelersbackpack:item/iron_tier_upgrade"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "jukebox_upgrade",
+      "name": "Jukebox Upgrade",
+      "image": "assets/mod-items/travelersbackpack/jukebox_upgrade.png",
+      "layers": [
+        "travelersbackpack:item/jukebox_upgrade"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "lantern_upgrade",
+      "name": "Lantern Upgrade",
+      "image": "assets/mod-items/travelersbackpack/lantern_upgrade.png",
+      "layers": [
+        "travelersbackpack:item/lantern_upgrade"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "light_blue_sleeping_bag",
+      "name": "Light Blue Sleeping Bag",
+      "image": "assets/mod-items/travelersbackpack/light_blue_sleeping_bag.png",
+      "layers": [
+        "travelersbackpack:item/light_blue_sleeping_bag"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "light_gray_sleeping_bag",
+      "name": "Light Gray Sleeping Bag",
+      "image": "assets/mod-items/travelersbackpack/light_gray_sleeping_bag.png",
+      "layers": [
+        "travelersbackpack:item/light_gray_sleeping_bag"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "lime_sleeping_bag",
+      "name": "Lime Sleeping Bag",
+      "image": "assets/mod-items/travelersbackpack/lime_sleeping_bag.png",
+      "layers": [
+        "travelersbackpack:item/lime_sleeping_bag"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "magenta_sleeping_bag",
+      "name": "Magenta Sleeping Bag",
+      "image": "assets/mod-items/travelersbackpack/magenta_sleeping_bag.png",
+      "layers": [
+        "travelersbackpack:item/magenta_sleeping_bag"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "magnet_upgrade",
+      "name": "Magnet Upgrade",
+      "image": "assets/mod-items/travelersbackpack/magnet_upgrade.png",
+      "layers": [
+        "travelersbackpack:item/magnet_upgrade"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "netherite_tier_upgrade",
+      "name": "\u00a78Netherite Tier Upgrade",
+      "image": "assets/mod-items/travelersbackpack/netherite_tier_upgrade.png",
+      "layers": [
+        "travelersbackpack:item/netherite_tier_upgrade"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "orange_sleeping_bag",
+      "name": "Orange Sleeping Bag",
+      "image": "assets/mod-items/travelersbackpack/orange_sleeping_bag.png",
+      "layers": [
+        "travelersbackpack:item/orange_sleeping_bag"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "pickup_upgrade",
+      "name": "Pickup Upgrade",
+      "image": "assets/mod-items/travelersbackpack/pickup_upgrade.png",
+      "layers": [
+        "travelersbackpack:item/pickup_upgrade"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "pink_sleeping_bag",
+      "name": "Pink Sleeping Bag",
+      "image": "assets/mod-items/travelersbackpack/pink_sleeping_bag.png",
+      "layers": [
+        "travelersbackpack:item/pink_sleeping_bag"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "purple_sleeping_bag",
+      "name": "Purple Sleeping Bag",
+      "image": "assets/mod-items/travelersbackpack/purple_sleeping_bag.png",
+      "layers": [
+        "travelersbackpack:item/purple_sleeping_bag"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "red_sleeping_bag",
+      "name": "Red Sleeping Bag",
+      "image": "assets/mod-items/travelersbackpack/red_sleeping_bag.png",
+      "layers": [
+        "travelersbackpack:item/red_sleeping_bag"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "refill_upgrade",
+      "name": "Refill Upgrade",
+      "image": "assets/mod-items/travelersbackpack/refill_upgrade.png",
+      "layers": [
+        "travelersbackpack:item/refill_upgrade"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "smoker_upgrade",
+      "name": "Smoker Upgrade",
+      "image": "assets/mod-items/travelersbackpack/smoker_upgrade.png",
+      "layers": [
+        "travelersbackpack:item/smoker_upgrade"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "tanks_upgrade",
+      "name": "Tanks Upgrade",
+      "image": "assets/mod-items/travelersbackpack/tanks_upgrade.png",
+      "layers": [
+        "travelersbackpack:item/tanks_upgrade"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "void_upgrade",
+      "name": "Void Upgrade",
+      "image": "assets/mod-items/travelersbackpack/void_upgrade.png",
+      "layers": [
+        "travelersbackpack:item/void_upgrade"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "white_sleeping_bag",
+      "name": "White Sleeping Bag",
+      "image": "assets/mod-items/travelersbackpack/white_sleeping_bag.png",
+      "layers": [
+        "travelersbackpack:item/white_sleeping_bag"
+      ]
+    },
+    {
+      "namespace": "travelersbackpack",
+      "model": "yellow_sleeping_bag",
+      "name": "Yellow Sleeping Bag",
+      "image": "assets/mod-items/travelersbackpack/yellow_sleeping_bag.png",
+      "layers": [
+        "travelersbackpack:item/yellow_sleeping_bag"
+      ]
+    }
+  ]
+}
