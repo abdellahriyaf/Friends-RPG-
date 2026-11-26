@@ -70,6 +70,7 @@ const rankingBasis=document.getElementById("rankingBasis");
 const rankingOrder=["weapons","simplySwords","armor","tools","ores","mythicMetals","betterEnd","artifacts","accessories","magic","bosses","adventureZ","mobs","world"].filter(key=>RANKING_DATA[key]);
 const rankingLabels={weapons:"Vanilla Weapons",simplySwords:"Simply Swords",armor:"Armor",tools:"Tools",ores:"Vanilla Ores",mythicMetals:"Mythic Metals",betterEnd:"BetterEnd",artifacts:"Artifacts",accessories:"Accessories",magic:"Magic & Spells",bosses:"Bosses",adventureZ:"AdventureZ",mobs:"Mobs",world:"World"};
 let activeRanking="weapons";
+let MOD_IMAGE_MAP = {};
 
 // Exact image paths are supplied by the original Simply Swords JAR model/texture audit.
 // Missing entries intentionally remain text-only; no substitute image is invented.
@@ -140,7 +141,7 @@ function renderRanking(){
    const rankBadge=document.createElement("span");
    rankBadge.className="rank-number";rankBadge.textContent=rank;rankCell.appendChild(rankBadge);
    const nameCell=document.createElement("td");
-   const imagePath=activeRanking==="simplySwords"?WEAPON_IMAGE_MAP[name]:null;
+   const imagePath=activeRanking==="simplySwords" ? WEAPON_IMAGE_MAP[name] : ((MOD_IMAGE_MAP[activeRanking] || {})[name] || null);
    if(imagePath){
      const img=document.createElement("img");
      img.className="rank-item-image";img.src=imagePath;img.alt="";img.loading="lazy";img.decoding="async";
@@ -154,3 +155,9 @@ function renderRanking(){
  });
 }
 renderRanking();
+
+// Load mapped mod item icons. The dedicated Simply Swords map above stays untouched.
+fetch("mod-image-map.json")
+ .then(response=>{if(!response.ok)throw new Error("Image map failed to load: "+response.status);return response.json()})
+ .then(imageMap=>{MOD_IMAGE_MAP=imageMap||{};renderRanking()})
+ .catch(error=>console.error("Could not load mod item images:",error));
