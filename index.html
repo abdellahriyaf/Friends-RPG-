@@ -16,7 +16,7 @@
   <header class="topbar">
     <a class="brand" href="#home"><span class="brand-mark">✦</span><span>FRIENDS <b>RPG</b><small>SERVER FIELD GUIDE</small></span></a>
     <nav id="nav">
-      <a href="#codex">MOD CODEX</a><a href="#bosses">BOSSES</a><a href="#progression">PROGRESSION</a><a href="#world">THE WORLD</a>
+      <a href="#rankings">RANKINGS</a><a href="#codex">MOD CODEX</a><a href="#bosses">BOSSES</a><a href="#progression">PROGRESSION</a><a href="#world">THE WORLD</a>
     </nav>
     <a class="top-cta" href="#start">PLAYER START <span>↗</span></a>
     <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
@@ -52,7 +52,14 @@
     </section>
 
     <section class="section codex-section" id="codex">
-      <div class="section-kicker">02 / THE MOD CODEX</div><div class="section-heading"><h2>KNOW YOUR <em>ARSENAL.</em></h2><p>Every documented mod, what it contributes and where to learn more.</p></div>
+      <div class="section-kicker">02 / THE RANKED COMPENDIUM</div><div class="section-heading"><h2>FROM ROOKIE TO <em>LEGEND.</em></h2><p>Browse progression rankings by category. Verified vanilla baselines are separated from modded data that still needs checking.</p></div>
+      <div class="ranking-toolbar"><div class="ranking-tabs" id="rankingTabs"></div><div class="ranking-basis" id="rankingBasis"></div></div>
+      <div class="ranking-table-wrap"><table class="ranking-table"><thead><tr><th>RANK</th><th>ITEM / TIER</th><th>BASELINE</th><th>NOTES</th></tr></thead><tbody id="rankingRows"></tbody></table></div>
+      <div class="ranking-disclaimer"><b>Data integrity:</b> These first rankings cover vanilla baselines only. Modded weapons, Mythic Metals armor/tools, Artifacts, Trinkets, spells, mobs and boss difficulty are not silently guessed. They will be added as verified entries once the exact server JAR data is available.</div>
+    </section>
+
+    <section class="section codex-section" id="codex">
+      <div class="section-kicker">03 / THE MOD CODEX</div><div class="section-heading"><h2>KNOW YOUR <em>ARSENAL.</em></h2><p>Every documented mod, what it contributes and where to learn more.</p></div>
       <div class="codex-toolbar"><div class="search-wrap"><span>⌕</span><input id="searchInput" type="search" placeholder="Search mods, features, classes..." aria-label="Search mods"></div><div class="filters" id="filters"></div></div>
       <div class="mod-grid" id="modGrid"></div>
       <div class="empty-state" id="emptyState" hidden>No entries match that search. Even the ancient archives have limits.</div>
@@ -60,13 +67,13 @@
     </section>
 
     <section class="section boss-section" id="bosses">
-      <div class="section-kicker">03 / THE HUNT</div><div class="section-heading"><h2>THEY ARE NOT <em>FRIENDLY.</em></h2><p>Boss encounters are milestones. Bring supplies, learn patterns and don't split the party.</p></div>
+      <div class="section-kicker">04 / THE HUNT</div><div class="section-heading"><h2>THEY ARE NOT <em>FRIENDLY.</em></h2><p>Boss encounters are milestones. Bring supplies, learn patterns and don't split the party.</p></div>
       <div class="boss-grid" id="bossGrid"></div>
       <div class="warning-line"><span>⚠</span><p><b>Before a boss run:</b> bring food, healing, spare gear, ranged options and a way to recover. Confirm the arena and drop rules in-game; loot and mechanics can vary by mod version or config.</p></div>
     </section>
 
     <section class="section progression-section" id="progression">
-      <div class="section-kicker">04 / THE ROAD AHEAD</div><div class="section-heading"><h2>FROM SURVIVOR TO <em>MYTH.</em></h2><p>A practical route through the server's systems. This is a recommended order, not a locked questline.</p></div>
+      <div class="section-kicker">05 / THE ROAD AHEAD</div><div class="section-heading"><h2>FROM SURVIVOR TO <em>MYTH.</em></h2><p>A practical route through the server's systems. This is a recommended order, not a locked questline.</p></div>
       <div class="timeline">
         <article class="tier"><div class="tier-marker">I</div><div class="tier-content"><span class="tier-label">EARLY GAME • SURVIVE</span><h3>THE FIRST CAMP</h3><p>Vanilla basics: food, iron tools, shield, reliable armor, bed and a protected base. Start collecting materials and learn the local terrain.</p><div class="chips"><span>Iron gear</span><span>Shield</span><span>Food supply</span><span>Waypoints</span></div></div><div class="tier-aside">FOUNDATION</div></article>
         <article class="tier"><div class="tier-marker">II</div><div class="tier-content"><span class="tier-label">EARLY–MID GAME • SPECIALIZE</span><h3>CHOOSE YOUR PATH</h3><p>Commit to a class direction and test weapons. Warriors and Rogues lean into melee; Archers control distance; Wizards build spell power; Paladins and Priests support the party.</p><div class="chips"><span>Class abilities</span><span>Simply Swords</span><span>Spell Engine</span><span>Artifacts</span></div></div><div class="tier-aside">IDENTITY</div></article>
@@ -77,7 +84,7 @@
     </section>
 
     <section class="section world-section" id="world">
-      <div class="section-kicker">05 / THE FRONTIERS</div><div class="section-heading"><h2>THERE IS MORE <em>OUT THERE.</em></h2><p>Dimensions, structures and server mechanics that shape exploration.</p></div>
+      <div class="section-kicker">06 / THE FRONTIERS</div><div class="section-heading"><h2>THERE IS MORE <em>OUT THERE.</em></h2><p>Dimensions, structures and server mechanics that shape exploration.</p></div>
       <div class="world-grid">
         <article class="world-card end-card"><div class="world-symbol">◈</div><span class="world-type">DIMENSION EXPANSION</span><h3>THE END</h3><p><b>BetterEnd</b> expands the End with new biomes, blocks, materials and exploration. Treat it as a major expedition, not a casual stroll.</p><a href="https://modrinth.com/mod/betterend" target="_blank" rel="noreferrer">EXPLORE MOD DETAILS ↗</a></article>
         <article class="world-card temple-card"><div class="world-symbol">⌖</div><span class="world-type">STRUCTURE OVERHAUL</span><h3>DESERT TEMPLES</h3><p><b>YUNG's Better Desert Temples</b> makes desert temple exploration more involved. Watch for traps and search thoroughly.</p><a href="https://modrinth.com/mod/yungs-better-desert-temples" target="_blank" rel="noreferrer">EXPLORE MOD DETAILS ↗</a></article>
@@ -92,7 +99,7 @@
     </section>
 
     <section class="section gear-section" id="gear">
-      <div class="section-kicker">06 / EQUIPMENT & BUILDCRAFT</div><div class="section-heading"><h2>BUILD A LOADOUT, <em>NOT A GUESS.</em></h2><p>Understand the equipment layers before spending rare materials.</p></div>
+      <div class="section-kicker">07 / EQUIPMENT & BUILDCRAFT</div><div class="section-heading"><h2>BUILD A LOADOUT, <em>NOT A GUESS.</em></h2><p>Understand the equipment layers before spending rare materials.</p></div>
       <div class="gear-grid">
         <article><div class="gear-icon">⚔</div><h3>WEAPONS</h3><p>Simply Swords adds weapon variety; Better Combat changes how compatible melee weapons feel. Compare reach, attack speed, special effects and your class skills.</p></article>
         <article><div class="gear-icon">⬡</div><h3>ARMOR</h3><p>Vanilla armor remains a dependable baseline. Modded armor and Mythic Metals gear add more paths, but the best choice depends on stats, effects and recipe cost.</p></article>
@@ -109,5 +116,5 @@
     </footer>
   </main>
   <div class="modal-backdrop" id="modal" hidden><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="modalClose" aria-label="Close">×</button><div class="modal-kicker" id="modalCategory"></div><h2 id="modalTitle"></h2><div class="modal-version" id="modalVersion"></div><p id="modalDescription"></p><h3>WHAT IT ADDS</h3><ul id="modalFeatures"></ul><div class="modal-links" id="modalLinks"></div></div></div>
-  <script src="data.js"></script><script src="data-bosses.js"></script><script src="app.js"></script>
+  <script src="data.js"></script><script src="data-bosses.js"></script><script src="data-rankings.js"></script><script src="app.js"></script>
 </body></html>

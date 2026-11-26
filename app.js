@@ -62,3 +62,19 @@ const menu=document.getElementById("menuToggle"),nav=document.getElementById("na
 menu.addEventListener("click",()=>nav.classList.toggle("open"));
 nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>nav.classList.remove("open")));
 renderMods();
+
+// Ranked compendium: categories are data-driven and the source basis is always visible.
+const rankingTabs=document.getElementById("rankingTabs");
+const rankingRows=document.getElementById("rankingRows");
+const rankingBasis=document.getElementById("rankingBasis");
+const rankingOrder=["weapons","armor","tools","ores","accessories","magic","bosses","mobs","world"];
+const rankingLabels={weapons:"Weapons",armor:"Armor",tools:"Tools",ores:"Ores",accessories:"Accessories",magic:"Magic",bosses:"Bosses",mobs:"Mobs",world:"World"};
+let activeRanking="weapons";
+function renderRanking(){
+ rankingTabs.innerHTML="";
+ rankingOrder.forEach(key=>{const b=document.createElement("button");b.className="rank-tab"+(key===activeRanking?" active":"");b.textContent=rankingLabels[key];b.addEventListener("click",()=>{activeRanking=key;renderRanking()});rankingTabs.appendChild(b)});
+ const group=RANKING_DATA[activeRanking];rankingBasis.textContent=group.basis;rankingRows.innerHTML="";
+ if(!group.entries.length){const tr=document.createElement("tr");tr.innerHTML=`<td colspan="4" class="rank-empty"><span>✧</span><b>${escapeHtml(group.label)} catalogue pending verification</b><small>This category is reserved in the guide, but no unsupported ranking has been published.</small></td>`;rankingRows.appendChild(tr);return}
+ group.entries.forEach(([name,rank,stat,note])=>{const tr=document.createElement("tr");tr.innerHTML=`<td><span class="rank-number">${escapeHtml(rank)}</span></td><td><b>${escapeHtml(name)}</b></td><td>${escapeHtml(stat)}</td><td>${escapeHtml(note)}</td>`;rankingRows.appendChild(tr)});
+}
+renderRanking();

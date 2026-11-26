@@ -53,3 +53,12 @@ To turn this into a fully exhaustive wiki, export the live server `mods/` filena
 - ores, generation heights and processing chains;
 - recipes, enchantments and progression dependencies;
 - server-specific mechanics and config rules.
+
+
+## Ranked Compendium
+
+The site includes an interactive ranking hub for weapons, armor, tools, ores, accessories, magic, bosses, mobs, and world progression.
+
+**Accuracy note:** numeric rankings currently cover vanilla baselines only. Modded item and difficulty rankings are marked pending verification rather than filled with invented stats. The modded catalogue needs the exact server mod JARs/configuration and, for some items, in-game tooltips or registry data. Add verified entries to `data-rankings.js`.
+
+Each category's `basis` is displayed above its table. Keep separate rankings for different roles or metrics when a single universal order would be misleading.
