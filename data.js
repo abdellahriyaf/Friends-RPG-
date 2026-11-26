@@ -1,388 +1,1141 @@
 window.SERVER_DATA = [
   {
-    "name": "Simply Swords",
-    "category": "Combat",
-    "status": "Confirmed",
-    "version": "1.70.2 · MC 1.20.1",
-    "description": "Adds a broad arsenal of distinctive melee weapons, each with its own moveset, reach and combat feel. A major source of weapon variety for the server.",
+    "name": "Bosses of Mass Destruction",
+    "category": "Bosses",
+    "status": "Installed on server",
+    "version": "1.7.5 · MC 1.20.1",
+    "description": "Adds major boss encounters with unique arenas, attacks and rewards.",
     "features": [
-      "Weapon families such as longswords, katanas, rapiers, spears, glaives and more",
-      "Unique weapon abilities and special variants",
-      "Pairs with Better Combat for more deliberate melee fighting"
-    ],
-    "links": [
-      [
-        "Mod page",
-        "https://modrinth.com/mod/simply-swords"
-      ],
-      [
-        "Wiki / guide search",
-        "https://www.google.com/search?q=Simply+Swords+1.20.1+wiki+weapon+abilities"
-      ],
-      [
-        "Videos",
-        "https://www.youtube.com/results?search_query=Simply+Swords+Minecraft+1.20.1+guide"
-      ]
-    ]
-  },
-  {
-    "name": "Spell Engine",
-    "category": "Magic",
-    "status": "Confirmed",
-    "version": "1.10.10 · MC 1.20.1",
-    "description": "The framework powering spellcasting and spell-based combat. It provides the underlying systems used by compatible magic and RPG class mods.",
-    "features": [
-      "Spell casting framework",
-      "Spell books, abilities and spell delivery systems for compatible mods",
-      "Works alongside Spell Power Attribute"
-    ],
-    "links": [
-      [
-        "Mod page",
-        "https://modrinth.com/mod/spell-engine"
-      ],
-      [
-        "Wiki / guide search",
-        "https://www.google.com/search?q=Fabric+Spell+Engine+1.20.1+guide"
-      ],
-      [
-        "Videos",
-        "https://www.youtube.com/results?search_query=Minecraft+Spell+Engine+Fabric+guide"
-      ]
-    ]
-  },
-  {
-    "name": "Spell Power Attribute",
-    "category": "Magic",
-    "status": "Confirmed",
-    "version": "1.6.1 · MC 1.20.1",
-    "description": "Adds spell-power attributes used to scale magical damage and healing. Gear and attributes can therefore matter as much as the spell itself.",
-    "features": [
-      "Spell power attributes",
-      "Supports spell-focused builds",
-      "Relevant to comparing magic gear"
-    ],
-    "links": [
-      [
-        "Mod page",
-        "https://modrinth.com/mod/spell-power"
-      ],
-      [
-        "Guide search",
-        "https://www.google.com/search?q=Spell+Power+Attribute+Minecraft+guide"
-      ],
-      [
-        "Videos",
-        "https://www.youtube.com/results?search_query=Spell+Power+Attribute+Minecraft"
-      ]
-    ]
-  },
-  {
-    "name": "Wizards",
-    "category": "Classes",
-    "status": "Confirmed",
-    "version": "3.1.3 · MC 1.20.1",
-    "description": "Adds a wizard-style RPG class and its magic progression. Exact spell availability depends on the installed spell content and server configuration.",
-    "features": [
-      "Wizard class identity",
-      "Spell-focused combat",
-      "Build around spell power, mana/cooldown management and positioning"
-    ],
-    "links": [
-      [
-        "Mod page",
-        "https://modrinth.com/mod/wizards"
-      ],
-      [
-        "Guide search",
-        "https://www.google.com/search?q=Rogues+and+Warriors+Wizards+Fabric+wiki"
-      ],
-      [
-        "Videos",
-        "https://www.youtube.com/results?search_query=Minecraft+Wizards+RPG+mod+Fabric+guide"
-      ]
-    ]
-  },
-  {
-    "name": "Rogues & Warriors",
-    "category": "Classes",
-    "status": "Confirmed",
-    "version": "3.1.3 · MC 1.20.1",
-    "description": "Adds martial and stealth-oriented RPG class options. Use its class equipment and abilities to shape a melee, mobile or tactical build.",
-    "features": [
-      "Rogue and warrior class paths",
-      "Class-oriented abilities and gear",
-      "Complements weapon variety from Simply Swords"
-    ],
-    "links": [
-      [
-        "Mod page",
-        "https://modrinth.com/mod/rogues-and-warriors"
-      ],
-      [
-        "Guide search",
-        "https://www.google.com/search?q=Rogues+and+Warriors+Minecraft+Fabric+guide"
-      ],
-      [
-        "Videos",
-        "https://www.youtube.com/results?search_query=Rogues+and+Warriors+Minecraft+mod+guide"
-      ]
-    ]
-  },
-  {
-    "name": "Archers",
-    "category": "Classes",
-    "status": "Confirmed in server context",
-    "version": "MC 1.20.1",
-    "description": "Adds an archer-focused RPG path. Ranged builds reward distance control, ammunition preparation and choosing targets before a fight starts.",
-    "features": [
-      "Archer class progression",
-      "Ranged combat identity",
-      "Build around bow/crossbow equipment and positioning"
+      "Adds major boss encounters with unique arenas, attacks and rewards.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
     ],
     "links": [
       [
         "Mod page search",
-        "https://www.google.com/search?q=Archers+RPG+mod+Fabric+1.20.1"
+        "https://modrinth.com/mods?q=Bosses+of+Mass+Destruction"
       ],
       [
-        "Guide search",
-        "https://www.google.com/search?q=Archers+Minecraft+mod+wiki+class"
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Bosses+of+Mass+Destruction+Minecraft+1.20.1+wiki"
       ],
       [
         "Videos",
-        "https://www.youtube.com/results?search_query=Archers+Minecraft+RPG+mod+Fabric"
+        "https://www.youtube.com/results?search_query=Bosses+of+Mass+Destruction+Minecraft+mod+guide"
       ]
     ]
   },
   {
-    "name": "Paladins & Priests",
-    "category": "Classes",
-    "status": "Confirmed in server context",
-    "version": "MC 1.20.1",
-    "description": "Adds holy/support-oriented class paths. These roles can focus on survivability, support and healing rather than only raw damage.",
+    "name": "Chunky",
+    "category": "Server utility",
+    "status": "Installed on server",
+    "version": "1.3.146",
+    "description": "Pre-generates world chunks to reduce exploration-time generation spikes.",
     "features": [
-      "Paladin and priest class identities",
-      "Support-oriented playstyles",
-      "Coordinate roles in group fights"
+      "Pre-generates world chunks to reduce exploration-time generation spikes.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
     ],
     "links": [
       [
         "Mod page search",
-        "https://www.google.com/search?q=Paladins+Priests+Minecraft+Fabric+RPG+mod"
+        "https://modrinth.com/mods?q=Chunky"
       ],
       [
-        "Guide search",
-        "https://www.google.com/search?q=Paladins+Priests+mod+wiki+Minecraft"
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Chunky+Minecraft+1.20.1+wiki"
       ],
       [
         "Videos",
-        "https://www.youtube.com/results?search_query=Paladins+Priests+Minecraft+mod+guide"
+        "https://www.youtube.com/results?search_query=Chunky+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "Clumps",
+    "category": "Performance",
+    "status": "Installed on server",
+    "version": "12.0.0.4 · MC 1.20.1",
+    "description": "Combines experience orbs to reduce entity overhead.",
+    "features": [
+      "Combines experience orbs to reduce entity overhead.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=Clumps"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Clumps+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=Clumps+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "Forge Config API Port",
+    "category": "Library",
+    "status": "Installed on server",
+    "version": "8.0.3 · MC 1.20.1",
+    "description": "Compatibility library that ports Forge-style configuration APIs to Fabric.",
+    "features": [
+      "Compatibility library that ports Forge-style configuration APIs to Fabric.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=Forge+Config+API+Port"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Forge+Config+API+Port+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=Forge+Config+API+Port+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "LuckPerms",
+    "category": "Administration",
+    "status": "Installed on server",
+    "version": "5.4.102",
+    "description": "Manages server groups, permissions and command access.",
+    "features": [
+      "Manages server groups, permissions and command access.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=LuckPerms"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=LuckPerms+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=LuckPerms+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "YUNG's Better Caves",
+    "category": "World generation",
+    "status": "Installed on server",
+    "version": "2.0.7 · MC 1.20.1",
+    "description": "Overhauls cave generation with more varied underground layouts.",
+    "features": [
+      "Overhauls cave generation with more varied underground layouts.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=YUNG's+Better+Caves"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=YUNG's+Better+Caves+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=YUNG's+Better+Caves+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "YUNG's Better Desert Temples",
+    "category": "Structures",
+    "status": "Installed on server",
+    "version": "3.0.3 · MC 1.20.1",
+    "description": "Reworks desert temples into larger, more involved structures.",
+    "features": [
+      "Reworks desert temples into larger, more involved structures.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=YUNG's+Better+Desert+Temples"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=YUNG's+Better+Desert+Temples+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=YUNG's+Better+Desert+Temples+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "YUNG's Better Dungeons",
+    "category": "Structures",
+    "status": "Installed on server",
+    "version": "4.0.4 · MC 1.20.1",
+    "description": "Adds redesigned dungeon structures and exploration challenges.",
+    "features": [
+      "Adds redesigned dungeon structures and exploration challenges.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=YUNG's+Better+Dungeons"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=YUNG's+Better+Dungeons+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=YUNG's+Better+Dungeons+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "YUNG's Better End Island",
+    "category": "Structures",
+    "status": "Installed on server",
+    "version": "2.0.6 · MC 1.20.1",
+    "description": "Overhauls the central End island and its surrounding terrain.",
+    "features": [
+      "Overhauls the central End island and its surrounding terrain.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=YUNG's+Better+End+Island"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=YUNG's+Better+End+Island+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=YUNG's+Better+End+Island+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "YUNG's Better Jungle Temples",
+    "category": "Structures",
+    "status": "Installed on server",
+    "version": "2.0.5 · MC 1.20.1",
+    "description": "Reworks jungle temples with expanded layouts and traps.",
+    "features": [
+      "Reworks jungle temples with expanded layouts and traps.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=YUNG's+Better+Jungle+Temples"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=YUNG's+Better+Jungle+Temples+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=YUNG's+Better+Jungle+Temples+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "YUNG's Better Mineshafts",
+    "category": "Structures",
+    "status": "Installed on server",
+    "version": "4.0.4 · MC 1.20.1",
+    "description": "Adds larger and more varied mineshaft structures.",
+    "features": [
+      "Adds larger and more varied mineshaft structures.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=YUNG's+Better+Mineshafts"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=YUNG's+Better+Mineshafts+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=YUNG's+Better+Mineshafts+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "YUNG's Better Nether Fortresses",
+    "category": "Structures",
+    "status": "Installed on server",
+    "version": "2.0.6 · MC 1.20.1",
+    "description": "Reworks Nether fortresses into more substantial structures.",
+    "features": [
+      "Reworks Nether fortresses into more substantial structures.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=YUNG's+Better+Nether+Fortresses"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=YUNG's+Better+Nether+Fortresses+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=YUNG's+Better+Nether+Fortresses+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "YUNG's Better Ocean Monuments",
+    "category": "Structures",
+    "status": "Installed on server",
+    "version": "3.0.4 · MC 1.20.1",
+    "description": "Redesigns ocean monuments with expanded rooms and encounters.",
+    "features": [
+      "Redesigns ocean monuments with expanded rooms and encounters.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=YUNG's+Better+Ocean+Monuments"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=YUNG's+Better+Ocean+Monuments+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=YUNG's+Better+Ocean+Monuments+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "YUNG's Better Strongholds",
+    "category": "Structures",
+    "status": "Installed on server",
+    "version": "4.0.3 · MC 1.20.1",
+    "description": "Reworks strongholds and their exploration routes.",
+    "features": [
+      "Reworks strongholds and their exploration routes.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=YUNG's+Better+Strongholds"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=YUNG's+Better+Strongholds+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=YUNG's+Better+Strongholds+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "YUNG's Better Witch Huts",
+    "category": "Structures",
+    "status": "Installed on server",
+    "version": "3.0.3 · MC 1.20.1",
+    "description": "Improves witch huts with larger, more detailed structures.",
+    "features": [
+      "Improves witch huts with larger, more detailed structures.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=YUNG's+Better+Witch+Huts"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=YUNG's+Better+Witch+Huts+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=YUNG's+Better+Witch+Huts+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "Alloy Forgery",
+    "category": "Technology",
+    "status": "Installed on server",
+    "version": "2.1.2 · MC 1.20",
+    "description": "Adds alloy-forging machinery and recipes.",
+    "features": [
+      "Adds alloy-forging machinery and recipes.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=Alloy+Forgery"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Alloy+Forgery+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=Alloy+Forgery+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "Armor Model API",
+    "category": "Library",
+    "status": "Installed on server",
+    "version": "1.0.0 · MC 1.20.1",
+    "description": "Provides shared support for custom armor models.",
+    "features": [
+      "Provides shared support for custom armor models.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=Armor+Model+API"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Armor+Model+API+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=Armor+Model+API+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "Artifacts",
+    "category": "Accessories",
+    "status": "Installed on server",
+    "version": "9.5.17 · MC 1.20.1",
+    "description": "Adds collectible wearable artifacts with special effects.",
+    "features": [
+      "Adds collectible wearable artifacts with special effects.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=Artifacts"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Artifacts+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=Artifacts+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "Balm",
+    "category": "Library",
+    "status": "Installed on server",
+    "version": "7.3.44 · MC 1.20.1",
+    "description": "Shared library used by supported content mods.",
+    "features": [
+      "Shared library used by supported content mods.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=Balm"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Balm+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=Balm+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "BCLib",
+    "category": "Library",
+    "status": "Installed on server",
+    "version": "3.0.18",
+    "description": "Library providing shared systems for BetterEnd and related world-generation content.",
+    "features": [
+      "Library providing shared systems for BetterEnd and related world-generation content.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=BCLib"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=BCLib+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=BCLib+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "BetterEnd",
+    "category": "Dimensions & world generation",
+    "status": "Installed on server",
+    "version": "4.0.14",
+    "description": "Expands the End with new biomes, resources, blocks, creatures and equipment.",
+    "features": [
+      "Expands the End with new biomes, resources, blocks, creatures and equipment.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=BetterEnd"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=BetterEnd+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=BetterEnd+Minecraft+mod+guide"
       ]
     ]
   },
   {
     "name": "Better Combat",
     "category": "Combat",
-    "status": "Confirmed in server context",
-    "version": "Fabric · MC 1.20.1",
-    "description": "Changes melee combat animations and attack handling to make weapon types feel more distinct. It is a combat-system mod, not a standalone weapon tier list.",
+    "status": "Installed on server",
+    "version": "1.9.0 · MC 1.20.1",
+    "description": "Adds animation-driven combat with weapon-specific attack styles.",
     "features": [
-      "Weapon-aware attack animations",
-      "More expressive melee combat",
-      "Works with compatible weapon mods"
+      "Adds animation-driven combat with weapon-specific attack styles.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
     ],
     "links": [
       [
-        "Mod page",
-        "https://modrinth.com/mod/better-combat"
-      ],
-      [
-        "Guide search",
-        "https://www.google.com/search?q=Better+Combat+Fabric+1.20.1+guide"
-      ],
-      [
-        "Videos",
-        "https://www.youtube.com/results?search_query=Better+Combat+Minecraft+Fabric+showcase"
-      ]
-    ]
-  },
-  {
-    "name": "Bosses of Mass Destruction",
-    "category": "Bosses",
-    "status": "Confirmed · 1.7.5",
-    "version": "1.7.5 · MC 1.20.1",
-    "description": "Adds major boss encounters with distinct arenas, attack patterns and rewards. Treat these as progression milestones and prepare rather than rushing in under-geared.",
-    "features": [
-      "Void Blossom",
-      "Night Lich",
-      "Obsidilith",
-      "Gauntlet"
-    ],
-    "links": [
-      [
-        "Mod page",
-        "https://modrinth.com/mod/bosses-of-mass-destruction"
-      ],
-      [
-        "Boss guide search",
-        "https://www.google.com/search?q=Bosses+of+Mass+Destruction+wiki+bosses+loot"
-      ],
-      [
-        "Videos",
-        "https://www.youtube.com/results?search_query=Bosses+of+Mass+Destruction+all+bosses+guide"
-      ]
-    ]
-  },
-  {
-    "name": "AdventureZ",
-    "category": "Bosses & Creatures",
-    "status": "Confirmed in server context",
-    "version": "Fabric · MC 1.20.1",
-    "description": "Adds hostile creatures and boss-style encounters to exploration. The exact spawn and loot experience can depend on config and world generation.",
-    "features": [
-      "Additional hostile encounters",
-      "Exploration-driven combat",
-      "Check current in-game drops before planning a gear route"
-    ],
-    "links": [
-      [
-        "Mod page",
-        "https://modrinth.com/mod/adventurez"
+        "Mod page search",
+        "https://modrinth.com/mods?q=Better+Combat"
       ],
       [
         "Wiki / guide search",
-        "https://www.google.com/search?q=AdventureZ+Minecraft+mod+wiki+bosses+loot"
+        "https://www.google.com/search?q=Better+Combat+Minecraft+1.20.1+wiki"
       ],
       [
         "Videos",
-        "https://www.youtube.com/results?search_query=AdventureZ+Minecraft+mod+bosses+guide"
+        "https://www.youtube.com/results?search_query=Better+Combat+Minecraft+mod+guide"
       ]
     ]
   },
   {
-    "name": "Mythic Metals",
-    "category": "Ores & Gear",
-    "status": "Confirmed in server context",
-    "version": "Fabric · MC 1.20.1",
-    "description": "Adds fantasy metals, ores, crafting materials and equipment. Treat each metal as its own resource path: where it spawns, what it crafts and whether its gear is worth the investment.",
+    "name": "Cardinal Components API",
+    "category": "Library",
+    "status": "Installed on server",
+    "version": "5.2.3",
+    "description": "Provides component-based data storage for Fabric mods.",
     "features": [
-      "Additional ore and metal progression",
-      "New crafting materials and equipment",
-      "Use the in-game recipe viewer to confirm recipes on this server"
+      "Provides component-based data storage for Fabric mods.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
     ],
     "links": [
       [
-        "Mod page",
-        "https://modrinth.com/mod/mythicmetals"
+        "Mod page search",
+        "https://modrinth.com/mods?q=Cardinal+Components+API"
       ],
       [
         "Wiki / guide search",
-        "https://www.google.com/search?q=Mythic+Metals+wiki+ores+armor+weapons"
+        "https://www.google.com/search?q=Cardinal+Components+API+Minecraft+1.20.1+wiki"
       ],
       [
         "Videos",
-        "https://www.youtube.com/results?search_query=Mythic+Metals+Minecraft+1.20.1+guide"
+        "https://www.youtube.com/results?search_query=Cardinal+Components+API+Minecraft+mod+guide"
       ]
     ]
   },
   {
-    "name": "Artifacts",
-    "category": "Equipment",
-    "status": "Confirmed in server context",
-    "version": "Fabric · MC 1.20.1",
-    "description": "Adds special wearable artifacts with unusual effects. These are build-defining utility pieces rather than simple armor upgrades.",
+    "name": "Cloth Config",
+    "category": "Library",
+    "status": "Installed on server",
+    "version": "11.1.136",
+    "description": "Provides configuration screens and shared config support.",
     "features": [
-      "Special accessory effects",
-      "Build customization",
-      "Check equipment slots and effect stacking"
+      "Provides configuration screens and shared config support.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
     ],
     "links": [
       [
-        "Mod page",
-        "https://modrinth.com/mod/artifacts"
+        "Mod page search",
+        "https://modrinth.com/mods?q=Cloth+Config"
       ],
       [
-        "Guide search",
-        "https://www.google.com/search?q=Artifacts+Minecraft+mod+all+items+effects+wiki"
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Cloth+Config+Minecraft+1.20.1+wiki"
       ],
       [
         "Videos",
-        "https://www.youtube.com/results?search_query=Artifacts+Minecraft+mod+all+items+guide"
+        "https://www.youtube.com/results?search_query=Cloth+Config+Minecraft+mod+guide"
       ]
     ]
   },
   {
-    "name": "Trinkets",
-    "category": "Equipment",
-    "status": "Confirmed · 3.7.2",
-    "version": "3.7.2 · MC 1.20.1",
-    "description": "Accessory-slot API used by mods that add wearable trinkets. It provides slots; other mods provide the actual items and effects.",
+    "name": "Collective",
+    "category": "Library",
+    "status": "Installed on server",
+    "version": "8.42 · MC 1.20.1",
+    "description": "Shared library required by several utility and world mods.",
     "features": [
-      "Extra equipment slots",
-      "Compatibility layer for accessory mods",
-      "Not itself a gear-content mod"
+      "Shared library required by several utility and world mods.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
     ],
     "links": [
       [
-        "Mod page",
-        "https://modrinth.com/mod/trinkets"
+        "Mod page search",
+        "https://modrinth.com/mods?q=Collective"
       ],
       [
-        "Guide search",
-        "https://www.google.com/search?q=Trinkets+Fabric+mod+slots+guide"
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Collective+Minecraft+1.20.1+wiki"
       ],
       [
         "Videos",
-        "https://www.youtube.com/results?search_query=Minecraft+Trinkets+mod+guide"
+        "https://www.youtube.com/results?search_query=Collective+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "Dungeons and Taverns",
+    "category": "Structures",
+    "status": "Installed on server",
+    "version": "3.0.3",
+    "description": "Adds additional dungeons, taverns and exploration locations.",
+    "features": [
+      "Adds additional dungeons, taverns and exploration locations.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=Dungeons+and+Taverns"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Dungeons+and+Taverns+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=Dungeons+and+Taverns+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "Fabric API",
+    "category": "Library",
+    "status": "Installed on server",
+    "version": "0.92.12 · MC 1.20.1",
+    "description": "Core Fabric hooks and APIs required by many installed mods.",
+    "features": [
+      "Core Fabric hooks and APIs required by many installed mods.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=Fabric+API"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Fabric+API+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=Fabric+API+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "Fabric Language Kotlin",
+    "category": "Library",
+    "status": "Installed on server",
+    "version": "1.14.2",
+    "description": "Kotlin runtime support for Fabric mods written in Kotlin.",
+    "features": [
+      "Kotlin runtime support for Fabric mods written in Kotlin.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=Fabric+Language+Kotlin"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Fabric+Language+Kotlin+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=Fabric+Language+Kotlin+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "fzzy_config",
+    "category": "Library",
+    "status": "Installed on server",
+    "version": "0.7.7 · MC 1.20.1",
+    "description": "Configuration library used by compatible mods.",
+    "features": [
+      "Configuration library used by compatible mods.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=fzzy_config"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=fzzy_config+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=fzzy_config+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "GeckoLib",
+    "category": "Library",
+    "status": "Installed on server",
+    "version": "4.8.5 · MC 1.20.1",
+    "description": "Animation framework for animated entities, blocks and items.",
+    "features": [
+      "Animation framework for animated entities, blocks and items.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=GeckoLib"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=GeckoLib+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=GeckoLib+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "Ledger",
+    "category": "Administration",
+    "status": "Installed on server",
+    "version": "1.3.18",
+    "description": "Provides server-side action logging and audit history.",
+    "features": [
+      "Provides server-side action logging and audit history.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=Ledger"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Ledger+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=Ledger+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "Lithium",
+    "category": "Performance",
+    "status": "Installed on server",
+    "version": "0.11.4 · MC 1.20.1",
+    "description": "Optimizes game logic to improve server performance.",
+    "features": [
+      "Optimizes game logic to improve server performance.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=Lithium"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Lithium+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=Lithium+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "ModernFix",
+    "category": "Performance",
+    "status": "Installed on server",
+    "version": "5.25.2 · MC 1.20.1",
+    "description": "Improves loading, memory use and general performance.",
+    "features": [
+      "Improves loading, memory use and general performance.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=ModernFix"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=ModernFix+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=ModernFix+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "Open Parties and Claims",
+    "category": "Social & claims",
+    "status": "Installed on server",
+    "version": "0.33.0 · MC 1.20.1",
+    "description": "Provides parties and land-claim protection tools.",
+    "features": [
+      "Provides parties and land-claim protection tools.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=Open+Parties+and+Claims"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Open+Parties+and+Claims+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=Open+Parties+and+Claims+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "owo-lib",
+    "category": "Library",
+    "status": "Installed on server",
+    "version": "0.11.2 · MC 1.20",
+    "description": "Shared UI and code library for compatible Fabric mods.",
+    "features": [
+      "Shared UI and code library for compatible Fabric mods.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=owo-lib"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=owo-lib+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=owo-lib+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "Ranged Weapon API",
+    "category": "Library",
+    "status": "Installed on server",
+    "version": "2.3.4 · MC 1.20.1",
+    "description": "Shared API for mods that add custom ranged weapons.",
+    "features": [
+      "Shared API for mods that add custom ranged weapons.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=Ranged+Weapon+API"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Ranged+Weapon+API+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=Ranged+Weapon+API+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "Remnant Mobs",
+    "category": "Mobs & loot",
+    "status": "Installed on server",
+    "version": "3.2.1 · MC 1.20.1",
+    "description": "Adds hostile creatures and related loot to exploration and combat.",
+    "features": [
+      "Adds hostile creatures and related loot to exploration and combat.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=Remnant+Mobs"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Remnant+Mobs+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=Remnant+Mobs+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "Runes",
+    "category": "Magic",
+    "status": "Installed on server",
+    "version": "1.3.2 · MC 1.20.1",
+    "description": "Adds rune items and magical effects for character utility and combat.",
+    "features": [
+      "Adds rune items and magical effects for character utility and combat.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=Runes"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Runes+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=Runes+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "Spark",
+    "category": "Administration & performance",
+    "status": "Installed on server",
+    "version": "1.10.53",
+    "description": "Provides server performance profiling and diagnostics.",
+    "features": [
+      "Provides server performance profiling and diagnostics.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=Spark"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Spark+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=Spark+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "Spell Power",
+    "category": "Magic",
+    "status": "Installed on server",
+    "version": "1.6.1 · MC 1.20.1",
+    "description": "Adds spell-power attributes used by compatible magical systems.",
+    "features": [
+      "Adds spell-power attributes used by compatible magical systems.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=Spell+Power"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Spell+Power+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=Spell+Power+Minecraft+mod+guide"
       ]
     ]
   },
   {
     "name": "Traveler's Backpack",
-    "category": "Utility & Gear",
-    "status": "Confirmed · 9.1.56",
+    "category": "Storage & utility",
+    "status": "Installed on server",
     "version": "9.1.56 · MC 1.20.1",
-    "description": "Adds wearable backpacks for extra inventory utility while exploring. Useful for long trips, mining runs and boss preparation.",
+    "description": "Adds wearable backpacks with storage, tanks and upgrade modules.",
     "features": [
-      "Wearable storage",
-      "Exploration convenience",
-      "Check the backpack's own upgrade and tank features in-game"
+      "Adds wearable backpacks with storage, tanks and upgrade modules.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
     ],
     "links": [
       [
-        "Mod page",
-        "https://modrinth.com/mod/travelersbackpack"
+        "Mod page search",
+        "https://modrinth.com/mods?q=Traveler's+Backpack"
       ],
       [
-        "Guide search",
-        "https://www.google.com/search?q=Travelers+Backpack+Minecraft+Fabric+1.20.1+guide"
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Traveler's+Backpack+Minecraft+1.20.1+wiki"
       ],
       [
         "Videos",
-        "https://www.youtube.com/results?search_query=Travelers+Backpack+Minecraft+mod+guide"
+        "https://www.youtube.com/results?search_query=Traveler's+Backpack+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "Trinkets",
+    "category": "Library & accessories",
+    "status": "Installed on server",
+    "version": "3.7.2",
+    "description": "Adds accessory equipment slots used by compatible mods.",
+    "features": [
+      "Adds accessory equipment slots used by compatible mods.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=Trinkets"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Trinkets+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=Trinkets+Minecraft+mod+guide"
+      ]
+    ]
+  },
+  {
+    "name": "Simple Voice Chat",
+    "category": "Communication",
+    "status": "Installed on server",
+    "version": "2.6.14 · MC 1.20.1",
+    "description": "Adds proximity-based voice chat for players.",
+    "features": [
+      "Adds proximity-based voice chat for players.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
+    ],
+    "links": [
+      [
+        "Mod page search",
+        "https://modrinth.com/mods?q=Simple+Voice+Chat"
+      ],
+      [
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Simple+Voice+Chat+Minecraft+1.20.1+wiki"
+      ],
+      [
+        "Videos",
+        "https://www.youtube.com/results?search_query=Simple+Voice+Chat+Minecraft+mod+guide"
       ]
     ]
   },
   {
     "name": "Waystones",
-    "category": "Utility & Travel",
-    "status": "Confirmed · 14.1.21",
+    "category": "Travel",
+    "status": "Installed on server",
     "version": "14.1.21 · MC 1.20.1",
-    "description": "Adds teleportation waystones that make established routes and distant bases easier to reach. Server rules may affect costs and access.",
+    "description": "Adds waystones and scrolls for player-controlled fast travel.",
     "features": [
-      "World travel network",
-      "Useful for group hubs and expedition staging",
-      "Confirm server-configured activation/cost rules"
+      "Adds waystones and scrolls for player-controlled fast travel.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
     ],
     "links": [
       [
-        "Mod page",
-        "https://modrinth.com/mod/waystones"
+        "Mod page search",
+        "https://modrinth.com/mods?q=Waystones"
       ],
       [
-        "Guide search",
-        "https://www.google.com/search?q=Waystones+Minecraft+Fabric+guide"
+        "Wiki / guide search",
+        "https://www.google.com/search?q=Waystones+Minecraft+1.20.1+wiki"
       ],
       [
         "Videos",
@@ -391,210 +1144,28 @@ window.SERVER_DATA = [
     ]
   },
   {
-    "name": "YUNG's Better Desert Temples",
-    "category": "Structures",
-    "status": "Confirmed · 3.0.3",
-    "version": "3.0.3 · MC 1.20",
-    "description": "Overhauls desert temples into larger, more involved structures. Expect exploration and traps rather than a simple surface loot stop.",
+    "name": "World Bosses",
+    "category": "Bosses",
+    "status": "Installed on server",
+    "version": "2.0.2 · MC 1.20.1",
+    "description": "Adds additional boss encounters to the server's combat progression.",
     "features": [
-      "Expanded desert temple structure",
-      "More involved exploration",
-      "YUNG's API dependency"
+      "Adds additional boss encounters to the server's combat progression.",
+      "Included in the server's reported installed-mod inventory.",
+      "Exact gameplay details may depend on the mod configuration."
     ],
     "links": [
       [
-        "Mod page",
-        "https://modrinth.com/mod/yungs-better-desert-temples"
-      ],
-      [
-        "Guide search",
-        "https://www.google.com/search?q=YUNGs+Better+Desert+Temples+guide+loot"
-      ],
-      [
-        "Videos",
-        "https://www.youtube.com/results?search_query=YUNGs+Better+Desert+Temples+Minecraft+showcase"
-      ]
-    ]
-  },
-  {
-    "name": "BetterEnd",
-    "category": "Dimensions",
-    "status": "Confirmed in server context",
-    "version": "Fabric · MC 1.20.1",
-    "description": "Overhauls the End with new biomes, blocks, materials and exploration content. It is a dimension-scale expansion, not just a structure pack.",
-    "features": [
-      "New End biomes and terrain",
-      "Additional materials and blocks",
-      "Explore carefully; End progression is a later-game objective"
-    ],
-    "links": [
-      [
-        "Mod page",
-        "https://modrinth.com/mod/betterend"
+        "Mod page search",
+        "https://modrinth.com/mods?q=World+Bosses"
       ],
       [
         "Wiki / guide search",
-        "https://www.google.com/search?q=BetterEnd+Fabric+wiki+biomes+ores+items"
+        "https://www.google.com/search?q=World+Bosses+Minecraft+1.20.1+wiki"
       ],
       [
         "Videos",
-        "https://www.youtube.com/results?search_query=BetterEnd+Minecraft+1.20.1+all+biomes+guide"
-      ]
-    ]
-  },
-  {
-    "name": "Open Parties and Claims",
-    "category": "Server Systems",
-    "status": "Confirmed in server context",
-    "version": "Fabric · MC 1.20.1",
-    "description": "Party and land-claim systems for multiplayer coordination and protecting builds. Exact claim limits and permissions are server-configured.",
-    "features": [
-      "Party grouping",
-      "Claimed land protection",
-      "Check server rules for trust and claim limits"
-    ],
-    "links": [
-      [
-        "Mod page",
-        "https://modrinth.com/mod/open-parties-and-claims"
-      ],
-      [
-        "Guide search",
-        "https://www.google.com/search?q=Open+Parties+and+Claims+Fabric+guide"
-      ],
-      [
-        "Videos",
-        "https://www.youtube.com/results?search_query=Open+Parties+and+Claims+Minecraft+guide"
-      ]
-    ]
-  },
-  {
-    "name": "Simple Voice Chat",
-    "category": "Social & Utility",
-    "status": "Confirmed · 2.6.27",
-    "version": "2.6.27 · MC 1.20.1",
-    "description": "Adds proximity voice chat. Players generally need the matching client mod and a working microphone; server networking must also be configured.",
-    "features": [
-      "Proximity voice chat",
-      "Push-to-talk support",
-      "Use the voice chat settings to configure microphone and activation key"
-    ],
-    "links": [
-      [
-        "Mod page",
-        "https://modrinth.com/mod/simple-voice-chat"
-      ],
-      [
-        "Setup guide",
-        "https://modrepo.de/minecraft/voicechat/wiki"
-      ],
-      [
-        "Videos",
-        "https://www.youtube.com/results?search_query=Simple+Voice+Chat+Minecraft+setup"
-      ]
-    ]
-  },
-  {
-    "name": "Xaero's Minimap",
-    "category": "Client Tools",
-    "status": "Confirmed · 26.6.0",
-    "version": "26.6.0",
-    "description": "Client-side minimap and navigation utility. Map sharing and server policies may be configured separately.",
-    "features": [
-      "Minimap and waypoint tools",
-      "Navigation convenience",
-      "Client-side feature; not a combat or content mod"
-    ],
-    "links": [
-      [
-        "Mod page",
-        "https://modrinth.com/mod/xaeros-minimap"
-      ],
-      [
-        "Guide search",
-        "https://www.google.com/search?q=Xaeros+Minimap+waypoints+guide"
-      ],
-      [
-        "Videos",
-        "https://www.youtube.com/results?search_query=Xaeros+Minimap+Minecraft+guide"
-      ]
-    ]
-  },
-  {
-    "name": "REI (Roughly Enough Items)",
-    "category": "Client Tools",
-    "status": "Confirmed · 12.1.785",
-    "version": "12.1.785 · MC 1.20.1",
-    "description": "Recipe and item viewer. Use it to inspect recipes, ingredients and item uses instead of guessing crafting chains.",
-    "features": [
-      "Recipe lookup",
-      "Item-use lookup",
-      "Essential for learning unfamiliar modded materials"
-    ],
-    "links": [
-      [
-        "Mod page",
-        "https://modrinth.com/mod/rei"
-      ],
-      [
-        "Guide search",
-        "https://www.google.com/search?q=Roughly+Enough+Items+REI+guide"
-      ],
-      [
-        "Videos",
-        "https://www.youtube.com/results?search_query=REI+Minecraft+mod+guide"
-      ]
-    ]
-  },
-  {
-    "name": "Sodium",
-    "category": "Performance",
-    "status": "Confirmed · 0.5.13",
-    "version": "0.5.13",
-    "description": "Client rendering optimization. It improves performance but does not add RPG content.",
-    "features": [
-      "Rendering performance",
-      "Client-side optimization",
-      "Keep client version compatible with the modpack"
-    ],
-    "links": [
-      [
-        "Mod page",
-        "https://modrinth.com/mod/sodium"
-      ],
-      [
-        "Guide search",
-        "https://www.google.com/search?q=Sodium+Minecraft+Fabric+configuration+guide"
-      ],
-      [
-        "Videos",
-        "https://www.youtube.com/results?search_query=Sodium+Minecraft+mod+settings+guide"
-      ]
-    ]
-  },
-  {
-    "name": "Spark",
-    "category": "Administration",
-    "status": "Confirmed · 1.10.53",
-    "version": "1.10.53",
-    "description": "Performance profiler used to investigate server tick lag, CPU hotspots and related performance problems.",
-    "features": [
-      "Server profiling",
-      "Tick and CPU diagnostics",
-      "Primarily an admin tool"
-    ],
-    "links": [
-      [
-        "Mod page",
-        "https://modrinth.com/mod/spark"
-      ],
-      [
-        "Documentation",
-        "https://spark.lucko.me/docs"
-      ],
-      [
-        "Videos",
-        "https://www.youtube.com/results?search_query=Minecraft+spark+profiler+mod+guide"
+        "https://www.youtube.com/results?search_query=World+Bosses+Minecraft+mod+guide"
       ]
     ]
   }
